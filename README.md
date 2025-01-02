@@ -10,6 +10,7 @@ Information about examples for Janet code.
   * [Core API Page](https://janet-lang.org/api/index.html)
   * [examples](https://github.com/janet-lang/janet-lang.org/tree/master/examples)
 * janet repository
+  * [boot.janet](https://github.com/janet-lang/janet/blob/master/src/boot/boot.janet)
   * [examples](https://github.com/janet-lang/janet/tree/master/examples)
   * [test suite](https://github.com/janet-lang/janet/tree/master/test)
 * [JanetDocs.com](https://janetdocs.com)
