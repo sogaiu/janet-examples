@@ -5,6 +5,11 @@
 * URL nice (and may be known to many community users?)
 * Customized look and feel (vs say github wiki)
 * Top page has search-as-you-type-with-filtering (e.g. try "string")
+  * Want to search for a Janet callable?  Visit janetdocs.com and
+    start typing.  Contrast with visiting a search engine or
+    janet-lang.org where extra bits need to be typed (e.g. narrowing
+    to a specific site) or navigating to an appropriate page within
+    the site might be needed.
   * Results are "on-site" (vs results shown via external search
     engine)
   * Produces "narrowed" view consisting of all matches (easier to go
