@@ -57,8 +57,10 @@ discussion](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Jan
 
 6. Incorporate revisions if needed until PR is ready.
 
-## Merged PR Example
+## Merged PR Examples
 
-[Here](https://github.com/janet-lang/janet-lang.org/pull/243) is an
-example of a merged PR.
+Below are some examples of merged PRs:
+
+* [#243](https://github.com/janet-lang/janet-lang.org/pull/243)
+* [#249](https://github.com/janet-lang/janet-lang.org/pull/249)
 
