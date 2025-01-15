@@ -86,6 +86,65 @@ Below are some examples of merged PRs:
 * [#251 - `string/trim` by
   rwtolbert](https://github.com/janet-lang/janet-lang.org/pull/251)
 
+## Escaping in Filenames
+
+To cope with some of Janet's symbols having names with characters that
+are not-so-friendly to certain filesystems and operating systems, an
+escaping scheme is used.
+
+Currently, there are seven characters that should not be used as is.
+The following table by erichaney enumerates the cases and
+replacements:
+
+|Symbol | Replacement|
+|-------|------------|
+|%      |_37         |
+|*      |_42         |
+|/      |_47         |
+|:      |_58         |
+|<      |_60         |
+|>      |_62         |
+|?      |_63         |
+
+As a concrete example, consider the name `string/has-prefix?`.  Since
+that name contains both a `/` and a `?`, two characters need to be
+replaced:
+
+* `/` should be replaced with `_47`
+* `?` should be replaced with `_63`
+
+Thus, the corresponding filename should be
+`string_47has-prefix_63.janet` and live under the `examples`
+directory.
+
+The following code might take care of things:
+
+```janet
+(def replacer
+  (peg/compile
+    ~(accumulate
+       (any
+         (choice (replace (capture (set "%*/:<>?"))
+                          ,|(string "_" (get $ 0)))
+                 (capture 1))))))
+
+(defn sym-to-filename
+  ``
+  Convert a symbol to a filename. Certain filenames are not allowed on
+  various operating systems.
+  ``
+  [fname]
+  (string "examples/"
+          (get (peg/match replacer fname) 0) ".janet"))
+
+(defn main
+  [& args]
+  (def symbol-name (get args 1))
+  (assert symbol-name "please specify a symbol name")
+  (print (string/slice (sym-to-filename symbol-name)
+                       (length "examples/"))))
+```
+
 ## Credits
 
 * erichaney
