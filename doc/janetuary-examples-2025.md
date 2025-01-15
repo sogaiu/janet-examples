@@ -65,3 +65,8 @@ Below are some examples of merged PRs:
 * [#251 - `string/trim` by
   rwtolbert](https://github.com/janet-lang/janet-lang.org/pull/251)
 
+## Credits
+
+* erichaney
+* rwtolbert
+
