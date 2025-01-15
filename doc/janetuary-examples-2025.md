@@ -30,10 +30,21 @@ discussion](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Jan
 3. Make a draft PR to the [janet-lang.org
    repository](https://github.com/janet-lang/janet-lang.org).
 
-   The PR should be via a branch on the fork made earlier.
+   1. The PR should be via a branch on the fork made earlier.
 
-   Making a draft PR can act as a signal to others that work is being
-   done on a particular identified function, macro, variable, etc.
+   2. It's nicer if the PR title contains the words:
+   
+      * "example" (or "examples")
+      * the name of the target function, macro, variable, etc.
+   
+      For example, `Add example for ++`.
+   
+      This helps when looking through the commit log later, but it may
+      also be helpful for folks who want to get a sense of what's
+      currently being worked on.
+
+   3. Making a draft PR can act as a signal to others that work is being
+      done on a particular identified function, macro, variable, etc.
 
     Note that:
 
@@ -53,7 +64,7 @@ discussion](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Jan
     * Running `make; make run` for the repository root and viewing the
       appropriate web page that should reflect one's work
 
-5. Ask for a review in the draft PR.
+5. Ask for a review of the draft PR.
 
 6. Incorporate revisions if needed until PR is ready.
 
