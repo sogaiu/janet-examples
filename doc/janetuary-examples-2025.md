@@ -9,9 +9,11 @@ discussion](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Jan
 
 ### TLDR
 
-The basic idea is to work on one thing per PR to provide examples
-for and to try to let others know what that is via the title chosen
-for the PR.
+The basic idea is to:
+
+1. Work on one thing per PR to provide examples for
+
+2. Let others know what that thing is via the title chosen for the PR
 
 Note: If you don't feel like reading the detailed version of the
 suggested process below, just be aware that there are a couple of
