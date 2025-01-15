@@ -7,9 +7,17 @@ discussion](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Jan
 
 ## Suggested Process
 
+### TLDR
+
+The basic idea is to work on one thing per PR to provide examples
+for and to try to let others know what that is via the title chosen
+for the PR.
+
+### The Detailed Version
+
 1. Fork the [janet-lang.org
-   repository](https://github.com/janet-lang/janet-lang.org) and verify
-   that `make; make run` works locally.
+   repository](https://github.com/janet-lang/janet-lang.org) and
+   verify that `make; make run` works locally.
 
     Windows note: via WSL2 is the only method that has been reported to
     succeed.
@@ -33,12 +41,12 @@ discussion](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Jan
    1. The PR should be via a branch on the fork made earlier.
 
    2. It's nicer if the PR title contains the words:
-   
+
       * "example" (or "examples")
       * the name of the target function, macro, variable, etc.
-   
+
       For example, `Add example for ++`.
-   
+
       This helps when looking through the commit log later, but it may
       also be helpful for folks who want to get a sense of what's
       currently being worked on.
@@ -53,7 +61,9 @@ discussion](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Jan
 
     * Certain filenames may need escaping; [erichaney's
     checklist](https://gist.github.com/erichaney/83fa66f13ae7682287f573da6c5c66c6)
-    has precomputed values for many filenames.
+    has precomputed values for many filenames.  See the
+    [Escaping in Filenames](#escaping-in-filenames) section below
+    for details.
 
 4. Work on examples and verify them locally.
 
