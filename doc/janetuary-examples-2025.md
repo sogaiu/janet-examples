@@ -13,6 +13,17 @@ The basic idea is to work on one thing per PR to provide examples
 for and to try to let others know what that is via the title chosen
 for the PR.
 
+Note: If you don't feel like reading the detailed version of the
+suggested process below, just be aware that there are a couple of
+sections beneath it that might be worth a glance:
+
+* [Merged PR Examples](#merged-pr-examples) - to get a concrete sense
+  of what various folks have done already
+
+* [Escaping in Filenames](#escaping-in-filenames) - to be aware that
+  there a some cases where the filename to include in the PR might
+  need a bit of massaging.
+
 ### The Detailed Version
 
 1. Fork the [janet-lang.org
