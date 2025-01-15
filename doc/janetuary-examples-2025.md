@@ -145,6 +145,14 @@ The following code might take care of things:
                        (length "examples/"))))
 ```
 
+Supposing that the code above is saved as `convert.janet`, it might
+be used like:
+
+```
+$ janet convert.janet string/has-prefix?
+string_47has-prefix_63.janet
+```
+
 ## Credits
 
 * erichaney
