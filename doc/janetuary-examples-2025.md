@@ -61,6 +61,7 @@ discussion](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Jan
 
 Below are some examples of merged PRs:
 
-* [#243](https://github.com/janet-lang/janet-lang.org/pull/243)
-* [#249](https://github.com/janet-lang/janet-lang.org/pull/249)
+* [#249 - `++` by erichaney](https://github.com/janet-lang/janet-lang.org/pull/249)
+* [#251 - `string/trim` by
+  rwtolbert](https://github.com/janet-lang/janet-lang.org/pull/251)
 
