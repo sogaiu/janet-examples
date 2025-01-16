@@ -276,6 +276,9 @@ _42.janet
   * Report the name of the file to edit
   * Could also remind about this document as well as suggested remaining
     steps
+* Make janet-lang.org usable in an ordinary Windows environment
+  * Move away from using a Makefile?
+  * Maintain Makefile but provide an alternative for Windows?
 
 ## Credits
 
