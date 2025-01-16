@@ -151,8 +151,8 @@ might be a convenient place to look.
 ### Details
 
 To cope with some of Janet's symbols having names with characters that
-are not-so-friendly to certain filesystems and operating systems, an
-escaping scheme is used.
+are not-so-friendly to certain filesystems and/or operating systems
+combinations, an escaping scheme is used.
 
 Currently, there are seven characters that should not be used as is.
 The following table by erichaney enumerates the cases and
