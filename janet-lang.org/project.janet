@@ -1,0 +1,3 @@
+(declare-project
+  :name "prs")
+
