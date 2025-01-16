@@ -254,6 +254,29 @@ $ janet convert.janet
 _42.janet
 ```
 
+## Ideas
+
+* "Request examples for X"
+* Script that automates some repetitive bits
+  * Invoke script in repository root.
+  * Display reminder about synchronizing local repository with latest
+  * Was there an argument on the command line specifying a Janet symbol?
+    * If there was an argument, it should be a legitimate Janet symbol name
+      * Script checks whether `examples` directory already contains
+        examples for specified symbol.  Can still continue as editing
+        existing file is fair game.  If examples exist already could display
+        them.
+    * If there is no argument, an appropriate symbol is chosen automatically.
+      May be the choice should be something for which there aren't yet any
+      examples.
+  * If needed, script creates an appropriately named file in `examples`
+    directory
+  * Reminds user to create an appropriately named branch based on
+    master branch and switch to it.
+  * Report the name of the file to edit
+  * Could also remind about this document as well as suggested remaining
+    steps
+
 ## Credits
 
 * erichaney
