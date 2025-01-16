@@ -216,6 +216,44 @@ $ janet convert.janet string/has-prefix?
 string_47has-prefix_63.janet
 ```
 
+Note that certain characters entered at one's shell may themselves
+need escaping.  For example, in many shells, passing a literal `*` to
+the script can be accomplished by preceding it with a backslash
+character:
+
+```
+$ janet convert.janet \*
+```
+
+A non-comprehensive list of these sorts of characters (at least for
+some shells) includes:
+
+* `*`
+* `<`
+* `>`
+
+If you don't want to deal with shell-escaping, one option is to
+modify the Janet code above to include an appropriate call.
+
+For example, one could change `main` to be:
+
+```janet
+(defn main
+  [& args]
+  #(def symbol-name (get args 1))
+  (def symbol-name "*")
+  (assert symbol-name "please specify a symbol name")
+  (print (string/slice (sym-to-filename symbol-name)
+                       (length "examples/"))))
+```
+
+Invoking the modified script:
+
+```
+$ janet convert.janet
+_42.janet
+```
+
 ## Credits
 
 * erichaney
