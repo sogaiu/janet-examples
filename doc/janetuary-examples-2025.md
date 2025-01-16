@@ -23,7 +23,7 @@ sections beneath it that might be worth a glance:
   of what various folks have done already.
 
 * [Escaping in Filenames](#escaping-in-filenames) - to be aware that
-  there a some cases where the filename to include in the PR might
+  there are some cases where the filename to include in the PR might
   need a bit of massaging.
 
 ### The Detailed Version
