@@ -179,7 +179,8 @@ Thus, the corresponding filename should be
 `string_47has-prefix_63.janet` and live under the `examples`
 directory.
 
-The following code might take care of things:
+Invoking the following code with an appropriate symbol name might yield
+a useful escaped result:
 
 ```janet
 (def replacer
