@@ -121,6 +121,15 @@ sections beneath it that might be worth a glance:
 
 5. Ask for a review of the draft PR.
 
+   <details>
+   <summary>How?</summary>
+   Some options include:
+
+   * One can <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review">mark a draft PR as "ready for review"</a>.
+
+   * Let us know via the <a href="https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/493004444">Zulip discussion</a>.
+   </details>
+
 6. Incorporate revisions if needed until PR is ready.
 
 ## Merged PR Examples
