@@ -16,8 +16,8 @@ The basic idea is to:
 2. Let others know what that thing is via the title chosen for the PR
 
 Note: If you don't feel like reading the detailed version of the
-suggested process below, just be aware that there are a couple of
-sections beneath it that might be worth a glance:
+suggested process below, just be aware that there are some sections
+beneath it that might be worth a glance:
 
 * [Merged PR Examples](#merged-pr-examples) - to get a concrete sense
   of what various folks have done already.
@@ -25,6 +25,10 @@ sections beneath it that might be worth a glance:
 * [Escaping in Filenames](#escaping-in-filenames) - to be aware that
   there are some cases where the filename to include in the PR might
   need a bit of massaging.
+
+* [Example Content](#example-content) - to get some hints about what
+  kinds of examples might be helpful as well as what to do if you
+  discover something that seems amiss or odd.
 
 ### The Detailed Version
 
@@ -103,6 +107,9 @@ sections beneath it that might be worth a glance:
       Note: Certain filenames may need [escaping](#escaping-in-filenames).
 
 4. Work on examples and verify them locally.
+
+   Please consider the [example content section](#example-content) for
+   things to keep in mind when constructing examples.
 
    <details>
    <summary>Verfication Hints</summary>
@@ -253,6 +260,36 @@ Invoking the modified script:
 $ janet convert.janet
 _42.janet
 ```
+
+## Example Content
+
+### Nice!
+
+The following non-exhaustively lists some characteristics that might
+be useful for examples to have:
+
+* Shows typical usage
+* Demonstrates intended edge cases
+* Clarifies potential ambiguities or confusion
+* Simple to understand
+
+### Huh?
+
+Sometimes a call or use you try might feel "off" in some way.  If it
+fits one of the following, please call this out (e.g. by letting us
+know via [this Zulip
+discussion](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/493004444)):
+
+* Seems to contradict the docstring
+* Seems unspecified by the docstring
+* Otherwise appears strange or unintuitive
+
+It's possible there's a bug in the behavior, the docstring, or other
+documentation.  If we become aware, this might lead to constructive
+change that helps us all.
+
+Note that if a PR contains an example that has one of the above
+characteristics, merging may be delayed as the matter is examined.
 
 ## Ideas
 
