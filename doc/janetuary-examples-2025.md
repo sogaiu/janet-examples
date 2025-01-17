@@ -279,6 +279,7 @@ _42.janet
 * Make janet-lang.org usable in an ordinary Windows environment
   * Move away from using a Makefile?
   * Maintain Makefile but provide an alternative for Windows?
+* Janet version of [The Weird and Wonderful Characters of ...](https://yobriefca.se/blog/2014/05/19/the-weird-and-wonderful-characters-of-clojure/)?
 
 ## Future Reference Log
 
