@@ -289,5 +289,7 @@ _42.janet
 ## Credits
 
 * erichaney
+* kcjpop
+* reym
 * rwtolbert
 
