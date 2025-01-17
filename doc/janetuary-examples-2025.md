@@ -281,13 +281,18 @@ _42.janet
   * Maintain Makefile but provide an alternative for Windows?
 
 ## Future Reference Log
+
+Encountered problems, gotchas, etc.
+
   * fnaj77 - [discoverability issue](https://github.com/janet-lang/janet-lang.org/issues/197)
   * reym - [search box issue](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetdocs/near/492848998)
+  * cideM - [int/to-number boundaries](https://github.com/janet-lang/janet/pull/1544#issuecomment-2589601564)
   * kcjpop - [fn vs |](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/494076412)
   * rwtolbert - [| reader macro](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/494258173)
 
 ## Credits
 
+* cideM
 * erichaney
 * kcjpop
 * reym
