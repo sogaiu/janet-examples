@@ -280,6 +280,12 @@ _42.janet
   * Move away from using a Makefile?
   * Maintain Makefile but provide an alternative for Windows?
 
+## Future Reference Log
+  * fnaj77 - discoverability (issue #197)
+  * reym - [search box issue](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetdocs/near/492848998)
+  * kcjpop - [fn vs |](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/494076412)
+  * rwtolbert - [| reader macro](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/494258173)
+
 ## Credits
 
 * erichaney
