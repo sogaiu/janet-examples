@@ -155,7 +155,7 @@ Below are some examples of merged PRs:
 want to find out what to use for a particular symbol's filename, that
 might be a convenient place to look.
 
-### Details
+### Escaping Scheme
 
 To cope with some of Janet's symbols having names with characters that
 are not-so-friendly to certain filesystems and/or operating systems
@@ -185,6 +185,8 @@ replaced:
 Thus, the corresponding filename should be
 `string_47has-prefix_63.janet` and live under the `examples`
 directory.
+
+### Helper Script
 
 Invoking the following code with an appropriate symbol name might yield
 a useful escaped result:
