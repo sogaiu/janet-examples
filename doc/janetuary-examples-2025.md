@@ -331,6 +331,7 @@ Encountered problems, gotchas, etc.
   * [trim short-fn examples from docstring?](https://github.com/janet-lang/janet-lang.org/pull/257#issue-2792013487)
   * rwtolbert - [| reader macro](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/494258173)
   * erichaney - [reduce2 behavior when 2nd arg is empty](https://github.com/janet-lang/janet-lang.org/pull/261#issuecomment-2597397017)
+  * rwtolbert - [when and lexical scope](https://github.com/janet-lang/janet-lang.org/pull/264#issuecomment-2599693986)
 
 ## Credits
 
