@@ -120,10 +120,6 @@ beneath it that might be worth a glance:
    * Run `make; make run` for the repository root.
 
    * View the appropriate web page that should reflect one's work.
-     Note that if the target item is "namespaced" (e.g.
-     `string/split`), it is likely to show up on a different page
-     from the Core API page.  As an example, in the case of
-     `string/split`, the page is <a href="https://janet-lang.org/api/string.html">this one</a>.
    </details>
 
 5. Ask for a review of the draft PR.
