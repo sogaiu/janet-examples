@@ -319,6 +319,9 @@ characteristics, merging may be delayed as the matter is examined.
   * Move away from using a Makefile?
   * Maintain Makefile but provide an alternative for Windows?
 * Janet version of [The Weird and Wonderful Characters of ...](https://yobriefca.se/blog/2014/05/19/the-weird-and-wonderful-characters-of-clojure/)?
+* Have the janet-lang.org repository provide [a built-in way to
+  generate an appropriate example filename from a given
+  symbol](https://github.com/janet-lang/janet-lang.org/issues/256#issuecomment-2600807625)
 
 ## Future Reference Log
 
