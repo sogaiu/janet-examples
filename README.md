@@ -29,6 +29,7 @@ Information about examples for Janet code.
   * [examples](https://github.com/sogaiu/margaret/tree/master/examples)
   * [samples from
     others](https://github.com/sogaiu/margaret/tree/master/samples/pegs)
+* [small-peg-tracer demo page](https://sogaiu.github.io/spt/)
 
 ### Repositories and Packages
 
