@@ -289,6 +289,11 @@ change that helps us all.
 Note that if a PR contains an example that has one of the above
 characteristics, merging may be delayed as the matter is examined.
 
+If there is some edge case or behavior that doesn't get resolved
+relatively soon, it may be best to remove these kinds of things out of
+in-progress PRs.  If / when they get attended to later corresponding
+examples might be made at that time.
+
 ## Ideas
 
 * "Request examples for X"
