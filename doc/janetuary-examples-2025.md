@@ -332,10 +332,18 @@ Encountered problems, gotchas, etc.
   * reym - [search box issue](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetdocs/near/492848998)
   * cideM - [int/to-number boundaries](https://github.com/janet-lang/janet/pull/1544#issuecomment-2589601564)
   * kcjpop - [fn vs |](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/494076412)
-  * [trim short-fn examples from docstring?](https://github.com/janet-lang/janet-lang.org/pull/257#issue-2792013487)
   * rwtolbert - [| reader macro](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/494258173)
   * erichaney - [reduce2 behavior when 2nd arg is empty](https://github.com/janet-lang/janet-lang.org/pull/261#issuecomment-2597397017)
   * rwtolbert - [when and lexical scope](https://github.com/janet-lang/janet-lang.org/pull/264#issuecomment-2599693986)
+
+## Potential Future Items
+
+* [trim short-fn examples from docstring?](https://github.com/janet-lang/janet-lang.org/pull/257#issue-2792013487)
+* eventually trim docstrings of other items that have at least one
+  example in the corresponding docstring?
+  * `apply`
+  * `debug/break`
+  * `fiber/new`
 
 ## Credits
 
