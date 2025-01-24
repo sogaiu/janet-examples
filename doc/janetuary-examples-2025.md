@@ -349,9 +349,13 @@ Encountered problems, gotchas, etc.
 
 ## Credits
 
+Thanks to participants for contributions, discussions, initiation, reviews, etc.
+
+* bakpakin
 * cideM
 * erichaney
 * kcjpop
+* pepe
 * reym
 * rwtolbert
 
