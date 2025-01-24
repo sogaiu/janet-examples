@@ -344,6 +344,8 @@ Encountered problems, gotchas, etc.
   * `apply`
   * `debug/break`
   * `fiber/new`
+* discuss deprecation of some things
+  * [`drop-while`, `drop-until`](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/495625736)
 
 ## Credits
 
