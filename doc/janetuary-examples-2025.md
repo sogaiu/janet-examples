@@ -147,17 +147,55 @@ Below are some examples of merged PRs:
 
 ## Escaping in Filenames
 
+To cope with some of Janet's symbols having names with characters that
+are not-so-friendly to certain filesystem and/or operating system
+combinations, an escaping scheme is used.
+
+Below are a number of ways to end up with a usable filename.
+
 ### Checklist
 
 [erichaney's checklist](https://gist.github.com/erichaney/83fa66f13ae7682287f573da6c5c66c6) has precomputed values for many filenames.  So if you just
 want to find out what to use for a particular symbol's filename, that
 might be a convenient place to look.
 
-### Escaping Scheme
+### Helper Script
 
-To cope with some of Janet's symbols having names with characters that
-are not-so-friendly to certain filesystems and/or operating systems
-combinations, an escaping scheme is used.
+There is a script in the [janet-lang.org
+repository](https://github.com/janet-lang/janet-lang.org) that can
+apply the escaping scheme.
+
+For a given symbol, use the `content/api/examples.janet` script to
+generate an appropriate filename.  For example, for `array/new`,
+invoking:
+
+```
+$ janet content/api/examples.janet array/new
+```
+
+should give the output:
+
+```
+array_47new.janet
+```
+
+Note that certain characters entered at one's shell may themselves
+need escaping.  For example, in many shells, passing a literal `*` to
+the script can be accomplished by preceding it with a backslash
+character:
+
+```
+$ janet content/api/examples.janet \*
+```
+
+A non-comprehensive list of these sorts of characters (at least for
+some shells) includes:
+
+* `*`
+* `<`
+* `>`
+
+### Escaping Scheme
 
 Currently, there are seven characters that should not be used as is.
 The following table by erichaney enumerates the cases and
@@ -183,83 +221,6 @@ replaced:
 Thus, the corresponding filename should be
 `string_47has-prefix_63.janet` and live under the `examples`
 directory.
-
-### Helper Script
-
-Invoking the following code with an appropriate symbol name might yield
-a useful escaped result:
-
-```janet
-(def replacer
-  (peg/compile
-    ~(accumulate
-       (any
-         (choice (replace (capture (set "%*/:<>?"))
-                          ,|(string "_" (get $ 0)))
-                 (capture 1))))))
-
-(defn sym-to-filename
-  ``
-  Convert a symbol to a filename. Certain filenames are not allowed on
-  various operating systems.
-  ``
-  [fname]
-  (string "examples/"
-          (get (peg/match replacer fname) 0) ".janet"))
-
-(defn main
-  [& args]
-  (def symbol-name (get args 1))
-  (assert symbol-name "please specify a symbol name")
-  (print (string/slice (sym-to-filename symbol-name)
-                       (length "examples/"))))
-```
-
-Supposing that the code above is saved as `convert.janet`, it might
-be used like:
-
-```
-$ janet convert.janet string/has-prefix?
-string_47has-prefix_63.janet
-```
-
-Note that certain characters entered at one's shell may themselves
-need escaping.  For example, in many shells, passing a literal `*` to
-the script can be accomplished by preceding it with a backslash
-character:
-
-```
-$ janet convert.janet \*
-```
-
-A non-comprehensive list of these sorts of characters (at least for
-some shells) includes:
-
-* `*`
-* `<`
-* `>`
-
-If you don't want to deal with shell-escaping, one option is to
-modify the Janet code above to include an appropriate call.
-
-For example, one could change `main` to be:
-
-```janet
-(defn main
-  [& args]
-  #(def symbol-name (get args 1))
-  (def symbol-name "*")
-  (assert symbol-name "please specify a symbol name")
-  (print (string/slice (sym-to-filename symbol-name)
-                       (length "examples/"))))
-```
-
-Invoking the modified script:
-
-```
-$ janet convert.janet
-_42.janet
-```
 
 ## Example Content
 
@@ -323,9 +284,6 @@ examples might be made at that time.
   * Move away from using a Makefile?
   * Maintain Makefile but provide an alternative for Windows?
 * Janet version of [The Weird and Wonderful Characters of ...](https://yobriefca.se/blog/2014/05/19/the-weird-and-wonderful-characters-of-clojure/)?
-* Have the janet-lang.org repository provide [a built-in way to
-  generate an appropriate example filename from a given
-  symbol](https://github.com/janet-lang/janet-lang.org/issues/256#issuecomment-2600807625)
 
 ## Future Reference Log
 
