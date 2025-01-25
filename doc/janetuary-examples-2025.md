@@ -311,7 +311,7 @@ Encountered problems, gotchas, etc.
   activities.  see
   [here](https://github.com/janet-lang/janet-lang.org/tree/8774d909d65cca9ecd8d3d92d8baa56eef948f7e/examples)
   for which things.
-* fix some formatting
+* potential fixes
   * _42.janet
     * change instances of #-> to # ->
     * return values of last two should be: 1.21645100408832e+17
