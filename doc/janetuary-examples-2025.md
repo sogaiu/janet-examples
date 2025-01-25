@@ -317,6 +317,10 @@ Encountered problems, gotchas, etc.
     * return values of last two should be: 1.21645100408832e+17
   * apply.janet
     * error message change: expected array or tuple, got 10
+  * product.janet
+    * (product "hello")'s return value should be 13599570816
+  * slice.janet
+    * comment `(a new array!)` is incorrect atm
 * track from which commit something got added and by whom?
   * need a more efficient method
   * take, drop - curist
