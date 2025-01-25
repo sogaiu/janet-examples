@@ -142,6 +142,8 @@ Below are some examples of merged PRs:
 * [#249 - `++` by erichaney](https://github.com/janet-lang/janet-lang.org/pull/249)
 * [#251 - `string/trim` by
   rwtolbert](https://github.com/janet-lang/janet-lang.org/pull/251)
+* [#272 - `*repl-prompt*` by
+  mpwillson](https://github.com/janet-lang/janet-lang.org/pull/272)
 
 ## Escaping in Filenames
 
@@ -387,6 +389,7 @@ Thanks to participants for contributions, discussions, initiation, reviews, etc.
 * cideM
 * erichaney
 * kcjpop
+* mpwillson
 * pepe
 * reym
 * rwtolbert
