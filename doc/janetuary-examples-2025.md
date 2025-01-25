@@ -270,6 +270,7 @@ be useful for examples to have:
 * Demonstrates intended edge cases
 * Clarifies potential ambiguities or confusion
 * Simple to understand
+* Fixes / tweaks a community example from elsewhere
 
 ### Huh?
 
@@ -346,6 +347,37 @@ Encountered problems, gotchas, etc.
   * `fiber/new`
 * discuss deprecation of some things
   * [`drop-while`, `drop-until`](https://janet.zulipchat.com/#narrow/channel/399615-general/topic/Janetuary.20Community.20Project.3A.20Write.20API.20examples/near/495625736)
+* add testable versions of examples that existed before 2025 Janetuary
+  activities.  see
+  [here](https://github.com/janet-lang/janet-lang.org/tree/8774d909d65cca9ecd8d3d92d8baa56eef948f7e/examples)
+  for which things.
+* fix some formatting
+  * _42.janet
+    * change instances of #-> to # ->
+    * return values of last two should be: 1.21645100408832e+17
+  * apply.janet
+    * error message change: expected array or tuple, got 10
+* track from which commit something got added and by whom?
+  * need a more efficient method
+  * take, drop - curist
+* functions to check whether the return value is also an xs
+  * determined
+    * distinct - returns an array, can work on tuples, arrays, structs, tables
+      but what it is supposed to work on is unspecified
+    * geomean - returns an array, can work on tuples, arrays, structs, tables
+      but what it is supposed to work on is unspecified
+    * last - returns element can work on tuples, arrays, structs, tables
+      but what it is supposed to work on is unspecified
+    * mean - returns an array, can work on tuples, arrays, structs, tables
+      but what it is supposed to work on is unspecified
+    * product - returns an array, can work on tuples, arrays, structs, tables
+      but what it is supposed to work on is unspecified
+    * sum - returns an array, can work on tuples, arrays, structs, tables
+      but what it is supposed to work on is unspecified
+  * todo
+    * filter
+    * drop-until
+    * drop-while
 
 ## Credits
 
