@@ -2,7 +2,8 @@
 
   # trim leading and trailing whitespace
   (string/trim "  foo ")
-  # => "foo"
+  # =>
+  "foo"
 
   # default whitespace includes " \t\r\n\v\f"
   (string/trim "\t bar\n\r\f")
