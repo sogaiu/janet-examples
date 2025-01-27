@@ -71,7 +71,7 @@ range	ce5708a,50bfa8d
 doseq	ce5708a,50bfa8d	
 map	ce5708a,50bfa8d	
 reduce	50bfa8d	
-for	50bfa8d,e653752,4a111b3,b0c45fd,f5b4bc4,45f8db0	commit order suspect
+for	50bfa8d,f5b4bc4,b0c45fd,e653752	for changed to its more recent form in b0c45fd
 		
 comment	8fe9881,e393e3d	
 		
