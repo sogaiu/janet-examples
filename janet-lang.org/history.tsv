@@ -1,0 +1,91 @@
+name	commits	notes
+cancel	28439d8	
+cmp	ac5de1f	removed janet function compare-primitve and replaced with asm cmp
+debug	a018f9f	
+error	a018f9f	
+get	a018f9f	semantics of get changed in aee1687 when in was added
+in	aee1687	
+length	a018f9f	
+next	51678c1	JOP_NEXT added and asm next implemented
+propagate	b8032ec	
+put	a018f9f	
+resume	a018f9f	
+yield	a018f9f	
+		
++	a018f9f	
+-	a018f9f	
+*	a018f9f	
+/	a018f9f	
+%		
+div		
+mod		
+		
+band	99e14a9	renamed from & which was added in a018f9f
+bnot	4e4dd31	renamed from ~ which was added in b860b0a
+bor	99e14a9	renamed from | which was added in a018f9f
+bxor	99e14a9	renamed from ^ which was added in a018f9f
+blshift	99e14a9	renamed from << which was added in a018f9f
+brshift	99e14a9	renamed from >> which was added in a018f9f
+brushift	99e14a9	renamed from >>> which was added in a018f9f
+		
+>		
+<		
+>=		
+<=		
+=		
+not=		
+		
+with	a7f3d34	renamed from with-resource which was added in b8032ec
+		
+filter	9cb7c92	
+		
+distinct	f8ab60f	
+keep	f8ab60f	
+flatten-into	f8ab60f	
+flatten	f8ab60f	
+interpose	f8ab60f	
+		
+++	8da838e	
+--	8da838e	
++=	8da838e	
+-=	8da838e	
+*=	8da838e	
+/=	8da838e	
+%=	8da838e	
+		
+even?	5f0bd1e	
+odd?	5f0bd1e	
+nil?	5f0bd1e	
+zero?	5f0bd1e	
+one?	5f0bd1e	
+inc?	5f0bd1e	
+dec?	5f0bd1e	
+and	5f0bd1e	
+or	5f0bd1e	
+		
+defmacro	ce5708a,50bfa8d	
+defn	ce5708a,50bfa8d	
+when	ce5708a,50bfa8d	
+seq	ce5708a,50bfa8d	
+range	ce5708a,50bfa8d	
+doseq	ce5708a,50bfa8d	
+map	ce5708a,50bfa8d	
+reduce	50bfa8d	
+for	50bfa8d,e653752,4a111b3,b0c45fd,f5b4bc4,45f8db0	commit order suspect
+		
+comment	8fe9881,e393e3d	
+		
+partial	0fd5528	
+juxt	0fd5528	
+juxt*	0fd5528	
+		
+take-until	73ead5c,5802155	changed by curist
+take-while	73ead5c,5802155	changed by curist
+drop-until	73ead5c,5802155	changed by curist
+drop-while	73ead5c,5802155	changed by curist
+		
+take	18da183	added by curist
+drop	18da183	added by curist
+		
+has-key?	5de8894	added by Techcable as contains-key? in 0fcbda2
+has-value?	5de8894	added by Techcable as contains? in 0fcbda2
