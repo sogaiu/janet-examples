@@ -68,7 +68,6 @@ defn	ce5708a,50bfa8d
 when	ce5708a,50bfa8d	
 seq	ce5708a,50bfa8d	
 range	ce5708a,50bfa8d	
-doseq	ce5708a,50bfa8d	
 map	ce5708a,50bfa8d	
 reduce	50bfa8d	
 for	50bfa8d,f5b4bc4,b0c45fd,e653752	for changed to its more recent form in b0c45fd
@@ -89,3 +88,5 @@ drop	18da183	added by curist
 		
 has-key?	5de8894	added by Techcable as contains-key? in 0fcbda2
 has-value?	5de8894	added by Techcable as contains? in 0fcbda2
+		
+doseq	ce5708a,50bfa8d,5738f6c	renamed to doiter in 5738f6c, doiter removed in 73ead5c
