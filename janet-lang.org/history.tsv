@@ -28,12 +28,12 @@ blshift	99e14a9	renamed from << which was added in a018f9f
 brshift	99e14a9	renamed from >> which was added in a018f9f
 brushift	99e14a9	renamed from >>> which was added in a018f9f
 		
->		
-<		
->=		
-<=		
-=		
-not=		
+>	6df88f2	
+<	6df88f2	
+>=	6df88f2	
+<=	6df88f2	
+=	6df88f2	
+not=	6df88f2	
 		
 with	a7f3d34	renamed from with-resource which was added in b8032ec
 		
