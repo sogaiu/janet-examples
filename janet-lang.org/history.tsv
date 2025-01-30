@@ -46,6 +46,9 @@ date	name	files	commits	notes
 2018-03-17	/=	src/compiler/boot.dst	8da838e	
 2018-03-17	%=	src/compiler/boot.dst	8da838e	
 				
+2018-03-21	if-let	examples/utils.dst	c7de277	
+2018-03-21	when-let	examples/utils.dst	c7de277	
+				
 2018-03-22	partial	src/compiler/boot.dst	0fd5528	
 2018-03-22	juxt	src/compiler/boot.dst	0fd5528	
 2018-03-22	juxt*	src/compiler/boot.dst	0fd5528	
