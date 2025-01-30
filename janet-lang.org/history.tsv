@@ -100,6 +100,8 @@ date	name	files	commits	notes
 				
 2018-12-01	bnot	src/core/corelib.c	4e4dd31	renamed from ~ which was added in b860b0a
 				
+2018-12-08	match	lib/match.janet	b7d44ba,b250679	moved to src/core/core.janet in b250679
+				
 2018-12-17	band	src/core/corelib.c	99e14a9	renamed from & which was added in a018f9f
 2018-12-17	bor	src/core/corelib.c	99e14a9	renamed from | which was added in a018f9f
 2018-12-17	bxor	src/core/corelib.c	99e14a9	renamed from ^ which was added in a018f9f
