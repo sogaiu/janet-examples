@@ -123,6 +123,9 @@ date	name	files	commits	notes
 				
 2019-11-09	in	src/core/corelib.c	aee1687	
 				
+2020-01-16	when-with	src/boot/boot.janet	962cd7e	
+2020-01-16	if-with	src/boot/boot.janet	962cd7e	
+				
 2020-01-24	mod	src/core/corelib.c	28d4103	
 2020-01-24	%	src/core/corelib.c	28d4103	
 				
