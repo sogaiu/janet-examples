@@ -92,6 +92,8 @@ date	name	files	commits	notes
 2018-07-04	*	src/core/corelib.c	a018f9f	
 2018-07-04	/	src/core/corelib.c	a018f9f	
 				
+2018-11-16	doc-format	src/core/core.janet	945b724	
+				
 2018-12-01	keep	src/boot/boot.janet	f8ab60f	
 2018-12-01	distinct	src/boot/boot.janet	f8ab60f	
 2018-12-01	flatten-into	src/boot/boot.janet	f8ab60f	
