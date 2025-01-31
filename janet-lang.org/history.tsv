@@ -1,142 +1,157 @@
-date	name	files	commits	notes
-				
-2018-01-28	comment	test/boot.dst	8fe9881,e393e3d	
-				
-2018-01-30	defmacro	test/boot.dst	ce5708a,50bfa8d	
-2018-01-30	defn	test/boot.dst	ce5708a,50bfa8d	
-2018-01-30	when	test/boot.dst	ce5708a,50bfa8d	
-2018-01-30	seq	test/boot.dst	ce5708a,50bfa8d	
-2018-01-30	range	test/boot.dst	ce5708a,50bfa8d	
-2018-01-30	map	test/boot.dst	ce5708a,50bfa8d	
-				
-2018-02-01	reduce	src/compiler/boot.dst	50bfa8d	
-2018-02-01	for	src/compiler/boot.dst	50bfa8d,f5b4bc4,b0c45fd,e653752	for changed to its more recent form in b0c45fd
-				
-2018-02-07	identity	src/compiler/boot.dst	3e1f031	
-2018-02-07	require	src/compiler/boot.dst	3e1f031	
-				
-2018-02-08	or	src/compiler/boot.dst	e047b39.5f0bd1e	
-2018-02-08	and	src/compiler/boot.dst	e047b39,5f0bd1e	
-				
-2018-03-12	let	src/compiler/boot.dst	807f981	
-2018-03-12	even?	src/compiler/boot.dst	807f981	
-2018-03-12	odd?	src/compiler/boot.dst	807f981	
-				
-2018-03-12	cond	src/compiler/boot.dst	3b26581	
-2018-03-12	doc	src/compiler/boot.dst	3b26581	
-2018-03-12	make-env	src/compiler/boot.dst	3b26581	
-2018-03-12	run-context	src/compiler/boot.dst	3b26581	
-2018-03-12	import	src/compiler/boot.dst	3b26581	
-2018-03-12	repl	src/compiler/boot.dst	3b26581	
-				
-2018-03-14	inc	src/compiler/boot.dst	2b1dd79	
-2018-03-14	dec	src/compiler/boot.dst	2b1dd79	
-				
-2018-03-14	filter	src/compiler/boot.dst	9cb7c92	
-2018-03-14	nil?	src/compiler/boot.dst	9cb7c92	
-2018-03-14	zero?	src/compiler/boot.dst	9cb7c92	
-2018-03-14	one?	src/compiler/boot.dst	9cb7c92	
-2018-03-14	make-env	src/compiler/boot.dst	9cb7c92	
-				
-2018-03-17	++	src/compiler/boot.dst	8da838e	
-2018-03-17	--	src/compiler/boot.dst	8da838e	
-2018-03-17	+=	src/compiler/boot.dst	8da838e	
-2018-03-17	-=	src/compiler/boot.dst	8da838e	
-2018-03-17	*=	src/compiler/boot.dst	8da838e	
-2018-03-17	/=	src/compiler/boot.dst	8da838e	
-2018-03-17	%=	src/compiler/boot.dst	8da838e	
-				
-2018-03-21	if-let	examples/utils.dst	c7de277	
-2018-03-21	when-let	examples/utils.dst	c7de277	
-				
-2018-03-22	partial	src/compiler/boot.dst	0fd5528	
-2018-03-22	juxt	src/compiler/boot.dst	0fd5528	
-2018-03-22	juxt*	src/compiler/boot.dst	0fd5528	
-				
-2018-03-29	take-until	src/compiler/boot.dst	73ead5c,5802155	changed by curist in 5802155
-2018-03-29	take-while	src/compiler/boot.dst	73ead5c,5802155	changed by curist in 5802155
-2018-03-29	drop-until	src/compiler/boot.dst	73ead5c,5802155	changed by curist in 5802155
-2018-03-29	drop-while	src/compiler/boot.dst	73ead5c,5802155	changed by curist in 5802155
-				
-2018-06-16	>	core/math.c	6df88f2	
-2018-06-16	<	core/math.c	6df88f2	
-2018-06-16	>=	core/math.c	6df88f2	
-2018-06-16	<=	core/math.c	6df88f2	
-2018-06-16	=	core/math.c	6df88f2	
-2018-06-16	not=	core/math.c	6df88f2	
-				
-2018-07-04	print	src/core/corelib.c	a018f9f	
-2018-07-04	describe	src/core/corelib.c	a018f9f	
-2018-07-04	string	src/core/corelib.c	a018f9f	
-2018-07-04	symbol	src/core/corelib.c	a018f9f	
-2018-07-04	buffer	src/core/corelib.c	a018f9f	
-2018-07-04	table	src/core/corelib.c	a018f9f	
-2018-07-04	array	src/core/corelib.c	a018f9f	
-2018-07-04	scan-number	src/core/corelib.c	a018f9f	
-2018-07-04	tuple	src/core/corelib.c	a018f9f	
-2018-07-04	struct	src/core/corelib.c	a018f9f	
-2018-07-04	buffer	src/core/corelib.c	a018f9f	
-2018-07-04	gensym	src/core/corelib.c	a018f9f	
-2018-07-04	gccollect	src/core/corelib.c	a018f9f	
-2018-07-04	gcsetinterval	src/core/corelib.c	a018f9f	
-2018-07-04	gcinterval	src/core/corelib.c	a018f9f	
-2018-07-04	type	src/core/corelib.c	a018f9f	
-2018-07-04	next	src/core/corelib.c	a018f9f,51678c1	JOP_NEXT added and asm next implemented in 51678c1
-2018-07-04	hash	src/core/corelib.c	a018f9f	
-2018-07-04	debug	src/core/corelib.c	a018f9f	
-2018-07-04	error	src/core/corelib.c	a018f9f	
-2018-07-04	get	src/core/corelib.c	a018f9f,aee1687	semantics of get changed in aee1687 when in was added
-2018-07-04	yield	src/core/corelib.c	a018f9f	
-2018-07-04	resume	src/core/corelib.c	a018f9f	
-2018-07-04	put	src/core/corelib.c	a018f9f	
-2018-07-04	length	src/core/corelib.c	a018f9f	
-2018-07-04	+	src/core/corelib.c	a018f9f	
-2018-07-04	-	src/core/corelib.c	a018f9f	
-2018-07-04	*	src/core/corelib.c	a018f9f	
-2018-07-04	/	src/core/corelib.c	a018f9f	
-				
-2018-11-16	doc-format	src/core/core.janet	945b724	
-				
-2018-12-01	keep	src/boot/boot.janet	f8ab60f	
-2018-12-01	distinct	src/boot/boot.janet	f8ab60f	
-2018-12-01	flatten-into	src/boot/boot.janet	f8ab60f	
-2018-12-01	flatten	src/boot/boot.janet	f8ab60f	
-2018-12-01	interpose	src/boot/boot.janet	f8ab60f	
-				
-2018-12-01	bnot	src/core/corelib.c	4e4dd31	renamed from ~ which was added in b860b0a
-				
-2018-12-08	match	lib/match.janet	b7d44ba,b250679	moved to src/core/core.janet in b250679
-				
-2018-12-17	band	src/core/corelib.c	99e14a9	renamed from & which was added in a018f9f
-2018-12-17	bor	src/core/corelib.c	99e14a9	renamed from | which was added in a018f9f
-2018-12-17	bxor	src/core/corelib.c	99e14a9	renamed from ^ which was added in a018f9f
-2018-12-17	blshift	src/core/corelib.c	99e14a9	renamed from << which was added in a018f9f
-2018-12-17	brshift	src/core/corelib.c	99e14a9	renamed from >> which was added in a018f9f
-2018-12-17	brushift	src/core/corelib.c	99e14a9	renamed from >>> which was added in a018f9f
-				
-2019-06-25	propagate	src/core/corelib.c	b8032ec	
-				
-2019-06-25	with	src/boot/boot.janet	a7f3d34	renamed from with-resource which was added in b8032ec
-				
-2019-08-06	take	src/boot/boot.janet	18da183	added by curist
-2019-08-06	drop	src/boot/boot.janet	18da183	added by curist
-				
-2019-11-09	in	src/core/corelib.c	aee1687	
-				
-2020-01-16	when-with	src/boot/boot.janet	962cd7e	
-2020-01-16	if-with	src/boot/boot.janet	962cd7e	
-				
-2020-01-24	mod	src/core/corelib.c	28d4103	
-2020-01-24	%	src/core/corelib.c	28d4103	
-				
-2020-06-25	cmp	src/core/corelib.c	ac5de1f	removed janet function compare-primitve and replaced with asm cmp
-				
-2020-08-23	cancel	src/core/corelib.c	28439d8	
-				
-2023-06-01	has-key?	src/boot/boot.janet	5de8894	added by Techcable as contains-key? in 0fcbda2
-2023-06-01	has-value?	src/boot/boot.janet	5de8894	added by Techcable as contains? in 0fcbda2
-				
-2023-06-28	div	src/core/corelib.c	c83f3ec	added by primo-ppcg
-				
-				
-2018-01-30	doseq	test/boot.dst	ce5708a,50bfa8d,5738f6c	renamed to doiter in 5738f6c, doiter removed in 73ead5c
+date	name	defunct name	files	commits	notes
+					
+2018-01-28	comment		test/boot.dst	8fe9881,e393e3d	
+					
+2018-01-30	defmacro		test/boot.dst	ce5708a,50bfa8d	
+2018-01-30	defn		test/boot.dst	ce5708a,50bfa8d	
+2018-01-30	when		test/boot.dst	ce5708a,50bfa8d	
+2018-01-30	seq		test/boot.dst	ce5708a,50bfa8d	
+2018-01-30	range		test/boot.dst	ce5708a,50bfa8d	
+2018-01-30	map		test/boot.dst	ce5708a,50bfa8d	
+2018-01-30		doseq	test/boot.dst	ce5708a,50bfa8d,5738f6c	renamed to doiter in 5738f6c, doiter removed in 73ead5c
+					
+2018-02-01	reduce		src/compiler/boot.dst	50bfa8d	
+2018-02-01	for		src/compiler/boot.dst	50bfa8d,f5b4bc4,b0c45fd,e653752	for changed to its more recent form in b0c45fd
+					
+2018-02-07	identity		src/compiler/boot.dst	3e1f031	
+2018-02-07	require		src/compiler/boot.dst	3e1f031	
+					
+2018-02-08	or		src/compiler/boot.dst	e047b39.5f0bd1e	
+2018-02-08	and		src/compiler/boot.dst	e047b39,5f0bd1e	
+					
+2018-03-12	let		src/compiler/boot.dst	807f981	
+2018-03-12	even?		src/compiler/boot.dst	807f981	
+2018-03-12	odd?		src/compiler/boot.dst	807f981	
+					
+2018-03-12	cond		src/compiler/boot.dst	3b26581	
+2018-03-12	doc		src/compiler/boot.dst	3b26581	
+2018-03-12	make-env		src/compiler/boot.dst	3b26581	
+2018-03-12	run-context		src/compiler/boot.dst	3b26581	
+2018-03-12	import		src/compiler/boot.dst	3b26581	
+2018-03-12	repl		src/compiler/boot.dst	3b26581	
+					
+2018-03-14	inc		src/compiler/boot.dst	2b1dd79	
+2018-03-14	dec		src/compiler/boot.dst	2b1dd79	
+					
+2018-03-14	filter		src/compiler/boot.dst	9cb7c92	
+2018-03-14	nil?		src/compiler/boot.dst	9cb7c92	
+2018-03-14	zero?		src/compiler/boot.dst	9cb7c92	
+2018-03-14	one?		src/compiler/boot.dst	9cb7c92	
+2018-03-14	make-env		src/compiler/boot.dst	9cb7c92	
+					
+2018-03-17	++		src/compiler/boot.dst	8da838e	
+2018-03-17	--		src/compiler/boot.dst	8da838e	
+2018-03-17	+=		src/compiler/boot.dst	8da838e	
+2018-03-17	-=		src/compiler/boot.dst	8da838e	
+2018-03-17	*=		src/compiler/boot.dst	8da838e	
+2018-03-17	/=		src/compiler/boot.dst	8da838e	
+2018-03-17	%=		src/compiler/boot.dst	8da838e	
+					
+2018-03-21	if-let		examples/utils.dst	c7de277	
+2018-03-21	when-let		examples/utils.dst	c7de277	
+					
+2018-03-22	partial		src/compiler/boot.dst	0fd5528	
+2018-03-22	juxt		src/compiler/boot.dst	0fd5528	
+2018-03-22	juxt*		src/compiler/boot.dst	0fd5528	
+					
+2018-03-29	take-until		src/compiler/boot.dst	73ead5c,5802155	changed by curist in 5802155
+2018-03-29	take-while		src/compiler/boot.dst	73ead5c,5802155	changed by curist in 5802155
+2018-03-29	drop-until		src/compiler/boot.dst	73ead5c,5802155	changed by curist in 5802155
+2018-03-29	drop-while		src/compiler/boot.dst	73ead5c,5802155	changed by curist in 5802155
+					
+2018-05-19	string?		src/compiler/boot.dst	68895e2	
+2018-05-19	symbol?		src/compiler/boot.dst	68895e2	
+2018-05-19	buffer?		src/compiler/boot.dst	68895e2	
+2018-05-19		module.paths	src/compiler/boot.dst	68895e2	
+2018-05-19		module.find	src/compiler/boot.dst	68895e2	
+					
+2018-06-16	>		core/math.c	6df88f2	
+2018-06-16	<		core/math.c	6df88f2	
+2018-06-16	>=		core/math.c	6df88f2	
+2018-06-16	<=		core/math.c	6df88f2	
+2018-06-16	=		core/math.c	6df88f2	
+2018-06-16	not=		core/math.c	6df88f2	
+					
+2018-07-04	print		src/core/corelib.c	a018f9f	
+2018-07-04	describe		src/core/corelib.c	a018f9f	
+2018-07-04	string		src/core/corelib.c	a018f9f	
+2018-07-04	symbol		src/core/corelib.c	a018f9f	
+2018-07-04	buffer		src/core/corelib.c	a018f9f	
+2018-07-04	table		src/core/corelib.c	a018f9f	
+2018-07-04	array		src/core/corelib.c	a018f9f	
+2018-07-04	scan-number		src/core/corelib.c	a018f9f	
+2018-07-04	tuple		src/core/corelib.c	a018f9f	
+2018-07-04	struct		src/core/corelib.c	a018f9f	
+2018-07-04	buffer		src/core/corelib.c	a018f9f	
+2018-07-04	gensym		src/core/corelib.c	a018f9f	
+2018-07-04	gccollect		src/core/corelib.c	a018f9f	
+2018-07-04	gcsetinterval		src/core/corelib.c	a018f9f	
+2018-07-04	gcinterval		src/core/corelib.c	a018f9f	
+2018-07-04	type		src/core/corelib.c	a018f9f	
+2018-07-04	next		src/core/corelib.c	a018f9f,51678c1	JOP_NEXT added and asm next implemented in 51678c1
+2018-07-04	hash		src/core/corelib.c	a018f9f	
+2018-07-04	debug		src/core/corelib.c	a018f9f	
+2018-07-04	error		src/core/corelib.c	a018f9f	
+2018-07-04	get		src/core/corelib.c	a018f9f,aee1687	semantics of get changed in aee1687 when in was added
+2018-07-04	yield		src/core/corelib.c	a018f9f	
+2018-07-04	resume		src/core/corelib.c	a018f9f	
+2018-07-04	put		src/core/corelib.c	a018f9f	
+2018-07-04	length		src/core/corelib.c	a018f9f	
+2018-07-04	+		src/core/corelib.c	a018f9f	
+2018-07-04	-		src/core/corelib.c	a018f9f	
+2018-07-04	*		src/core/corelib.c	a018f9f	
+2018-07-04	/		src/core/corelib.c	a018f9f	
+					
+2018-11-16	doc-format		src/core/core.janet	945b724	
+					
+2018-12-01	keep		src/boot/boot.janet	f8ab60f	
+2018-12-01	distinct		src/boot/boot.janet	f8ab60f	
+2018-12-01	flatten-into		src/boot/boot.janet	f8ab60f	
+2018-12-01	flatten		src/boot/boot.janet	f8ab60f	
+2018-12-01	interpose		src/boot/boot.janet	f8ab60f	
+					
+2018-12-01	module/paths		src/core/core.janet	4e4dd31	renamed from module.paths which was added in 68895e2
+2018-12-01	module/find		src/core/core.janet	4e4dd31	renamed from module.paths which was added in 68895e2
+2018-12-01	bnot		src/core/corelib.c	4e4dd31	renamed from ~ which was added in b860b0a
+					
+2018-12-08	match		lib/match.janet	b7d44ba,b250679	moved to src/core/core.janet in b250679
+					
+2018-12-17	band		src/core/corelib.c	99e14a9	renamed from & which was added in a018f9f
+2018-12-17	bor		src/core/corelib.c	99e14a9	renamed from | which was added in a018f9f
+2018-12-17	bxor		src/core/corelib.c	99e14a9	renamed from ^ which was added in a018f9f
+2018-12-17	blshift		src/core/corelib.c	99e14a9	renamed from << which was added in a018f9f
+2018-12-17	brshift		src/core/corelib.c	99e14a9	renamed from >> which was added in a018f9f
+2018-12-17	brushift		src/core/corelib.c	99e14a9	renamed from >>> which was added in a018f9f
+					
+2019-01-19	module/cache		src/core/core.janet	b84b0e4	
+2019-01-19	module/loading		src/core/core.janet	b84b0e4	
+					
+2019-02-17	make-image		src/core/core.janet	1f91ee3	
+2019-02-17	load-image		src/core/core.janet	1f91ee3	
+					
+2019-06-25	propagate		src/core/corelib.c	b8032ec	
+					
+2019-06-25	with		src/boot/boot.janet	a7f3d34	renamed from with-resource which was added in b8032ec
+					
+2019-08-06	take		src/boot/boot.janet	18da183	added by curist
+2019-08-06	drop		src/boot/boot.janet	18da183	added by curist
+					
+2019-11-09	in		src/core/corelib.c	aee1687	
+					
+2019-11-27	make-image-dict		src/boot/boot.janet	bca0392	
+2019-11-27	load-image-dict		src/boot/boot.janet	bca0392	
+					
+2020-01-16	when-with		src/boot/boot.janet	962cd7e	
+2020-01-16	if-with		src/boot/boot.janet	962cd7e	
+					
+2020-01-24	mod		src/core/corelib.c	28d4103	
+2020-01-24	%		src/core/corelib.c	28d4103	
+					
+2020-06-25	cmp		src/core/corelib.c	ac5de1f	removed janet function compare-primitve and replaced with asm cmp
+					
+2020-08-23	cancel		src/core/corelib.c	28439d8	
+					
+2023-06-01	has-key?		src/boot/boot.janet	5de8894	added by Techcable as contains-key? in 0fcbda2
+2023-06-01	has-value?		src/boot/boot.janet	5de8894	added by Techcable as contains? in 0fcbda2
+					
+2023-06-28	div		src/core/corelib.c	c83f3ec	added by primo-ppcg
