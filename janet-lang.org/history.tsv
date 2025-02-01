@@ -59,6 +59,10 @@ date	name	commits	defunct name	files	notes
 2018-03-29	drop-until	73ead5c,5802155		src/compiler/boot.dst	changed by curist in 5802155
 2018-03-29	drop-while	73ead5c,5802155		src/compiler/boot.dst	changed by curist in 5802155
 					
+2018-03-29	default	f4ef0ae		src/compiler/boot.dst	
+2018-03-29	sort	f4ef0ae		src/compiler/boot.dst	
+2018-03-29	sorted	f4ef0ae		src/compiler/boot.dst	
+					
 2018-05-19	string?	68895e2		src/compiler/boot.dst	
 2018-05-19	symbol?	68895e2		src/compiler/boot.dst	
 2018-05-19	buffer?	68895e2		src/compiler/boot.dst	
