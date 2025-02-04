@@ -7,6 +7,8 @@ date	name	commits	defunct name	files	notes
 2017-07-16	defmacro	a39a6fd		libs/bootstrap.gst	
 2017-07-16	comment	a39a6fd		libs/bootstrap.gst	
 					
+2018-01-28	compile	8fe9881		src/compiler/compile.c	
+					
 2018-01-30	when	ce5708a,50bfa8d		test/boot.dst	
 2018-01-30	seq	ce5708a,50bfa8d		test/boot.dst	
 2018-01-30	range	ce5708a,50bfa8d		test/boot.dst	
@@ -150,6 +152,8 @@ date	name	commits	defunct name	files	notes
 					
 2019-05-05	trace	88b8418		src/core/corelib.c	
 2019-05-05	untrace	88b8418		src/core/corelib.c	
+					
+2019-05-10	dofile	3388acd		src/boot/boot.janet	
 					
 2019-06-25	propagate	b8032ec		src/core/corelib.c	
 					
