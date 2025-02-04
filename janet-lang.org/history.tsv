@@ -72,6 +72,8 @@ date	name	commits	defunct name	files	notes
 2018-05-19		68895e2	module.paths	src/compiler/boot.dst	
 2018-05-19		68895e2	module.find	src/compiler/boot.dst	
 					
+2018-05-24	loop	b09bf72		src/compiler/boot.dst	
+					
 2018-06-16	>	6df88f2		core/math.c	
 2018-06-16	<	6df88f2		core/math.c	
 2018-06-16	>=	6df88f2		core/math.c	
@@ -133,8 +135,21 @@ date	name	commits	defunct name	files	notes
 2019-01-19	module/cache	b84b0e4		src/core/core.janet	
 2019-01-19	module/loading	b84b0e4		src/core/core.janet	
 					
+2019-02-08	partition	fe27df5		src/core/core.janet	
+					
 2019-02-17	make-image	1f91ee3		src/core/core.janet	
 2019-02-17	load-image	1f91ee3		src/core/core.janet	
+					
+2019-03-10	break	4a111b3		src/core/specials.c	
+					
+2019-04-17	printf	2d7df6b		src/boot/boot.janet	
+2019-04-17	dyn	2d7df6b		src/core/corelib.c	
+2019-04-17	setdyn	2d7df6b		src/core/corelib.c	
+					
+2019-04-17	with-dyns	513d551		src/boot/boot.janet	
+					
+2019-05-05	trace	88b8418		src/core/corelib.c	
+2019-05-05	untrace	88b8418		src/core/corelib.c	
 					
 2019-06-25	propagate	b8032ec		src/core/corelib.c	
 					
@@ -142,6 +157,8 @@ date	name	commits	defunct name	files	notes
 					
 2019-08-06	take	18da183		src/boot/boot.janet	added by curist
 2019-08-06	drop	18da183		src/boot/boot.janet	added by curist
+					
+2019-09-25	slice	70ffe3b,cf2d386		src/boot/boot.janet	became janet_core_slice c function in corelib.c in cf2d386
 					
 2019-11-09	in	aee1687		src/core/corelib.c	
 					
