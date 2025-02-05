@@ -190,6 +190,16 @@ date	name	commits	defunct name	files	notes
 					
 2019-10-11	quit	a18a251		src/boot/boot.janet	
 					
+2019-10-19	prin	d47804d		src/core/io.c	
+2019-10-19	eprin	d47804d		src/core/io.c	
+2019-10-19	eprint	d47804d		src/core/io.c	
+					
+2019-10-20	eprintf	8dd8af7		src/core/io.c	
+					
+2019-10-30	cli-main	0d16b9e		src/boot/boot.janet	
+					
+2019-11-01	with-vars	6ceaf9d		src/boot/boot.janet	
+					
 2019-11-09	in	aee1687		src/core/corelib.c	
 					
 2019-11-27	make-image-dict	bca0392		src/boot/boot.janet	
