@@ -71,8 +71,10 @@ date	name	commits	defunct name	files	notes
 2018-05-19	string?	68895e2		src/compiler/boot.dst	
 2018-05-19	symbol?	68895e2		src/compiler/boot.dst	
 2018-05-19	buffer?	68895e2		src/compiler/boot.dst	
-2018-05-19		68895e2	module.paths	src/compiler/boot.dst	
-2018-05-19		68895e2	module.find	src/compiler/boot.dst	
+2018-05-19		68895e2	module.paths	src/compiler/boot.dst	renamed to module/paths in 4e4dd31
+2018-05-19		68895e2	module.find	src/compiler/boot.dst	renamed to module/find in 4e4dd31
+					
+2018-05-22		f8bda3a	all-symbols	src/compiler/boot.dst	renamed to all-bindings in 5b1a3b8
 					
 2018-05-24	loop	b09bf72		src/compiler/boot.dst	
 					
@@ -134,6 +136,8 @@ date	name	commits	defunct name	files	notes
 2018-12-17	brshift	99e14a9		src/core/corelib.c	renamed from >> which was added in a018f9f
 2018-12-17	brushift	99e14a9		src/core/corelib.c	renamed from >>> which was added in a018f9f
 					
+2019-01-09	all-bindings	5b1a3b8			renamed from all-symbols which was added in f8bda3a
+					
 2019-01-19	module/cache	b84b0e4		src/core/core.janet	
 2019-01-19	module/loading	b84b0e4		src/core/core.janet	
 					
@@ -150,10 +154,14 @@ date	name	commits	defunct name	files	notes
 					
 2019-04-17	with-dyns	513d551		src/boot/boot.janet	
 					
+2019-04-17	all-dynamics	d1eca1c		src/boot/boot.janet	
+					
 2019-05-05	trace	88b8418		src/core/corelib.c	
 2019-05-05	untrace	88b8418		src/core/corelib.c	
 					
 2019-05-10	dofile	3388acd		src/boot/boot.janet	
+					
+2019-06-19	module/expand-path	9ba8728		src/core/corelib.c	
 					
 2019-06-25	propagate	b8032ec		src/core/corelib.c	
 					
