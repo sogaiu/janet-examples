@@ -234,22 +234,38 @@ comprehension and reduce confusion.  At the moment, it appears that:
 * Return values are expressed using `# -> <value>`, e.g.:
 
     ```
-    # -> 2.0`
+    (% 10 3) # -> 1
     ```
 
 * Errors are expressed using `# -> <error message>`, e.g.:
 
     ```
-    # compile error: unknown symnol module/not-exposed-fn`
+    (empty? 0) # -> error: expected iterable type, got 0
     ```
 
-  Typically a characteristic portion of the output error is used,
-  often a subset of the first line of error output.
+  Typically a characteristic portion of the actual error message is
+  used, often a subset of the first line of error output (so leaving
+  off additional lines if there is a stacktrace).
+
+  Note that sometimes the actual error message might start with
+  something other than `error:` (such as repl prompt info like
+  `repl:2:1:`), but it might be better to leave those bits out.
+  
+  However, some error messages might continue with a relevant word
+  such as `compile`, in which case keeping such words might be good:
+  
+    ```
+    (module/not-exposed-fn 10) # -> compile error: unknown symbol module/not-exposed-fn
+    ```
 
 * Output is expressed using a description with one or more line
   comments preceding or following the example:
 
     ```
+    (defn simple
+      [x]
+      (print (+ x 1)))
+
     # prints 11
     (simple 10) # -> nil
     ```
