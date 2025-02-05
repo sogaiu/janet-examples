@@ -224,6 +224,58 @@ directory.
 
 ## Example Content
 
+### Conventions
+
+There are a number of emerging conventions for expressing the
+examples.  Expressing examples along these lines may aid in
+comprehension and reduce confusion.  At the moment, it appears that:
+
+* Return values are expressed using `# -> <value>`, e.g.:
+
+    ```
+    # -> 2.0`
+    ```
+
+* Errors are expressed using `# -> <error message>`, e.g.:
+
+    ```
+    # compile error: unknown symnol module/not-exposed-fn`
+    ```
+
+  Typically a characteristic portion of the output error is used,
+  often a subset of the first line of error output.
+
+* Output is expressed using a description with one or more line
+  comments preceding or following the example:
+
+    ```
+    # prints 11
+    (simple 10) # -> nil
+    ```
+
+   or:
+
+    ```
+    (loop [x :range [0 100] :when (even? x)]
+      (print x)) # -> nil
+    # prints even numbers 0, 2, 4, ..., 98
+    ```
+
+   or:
+
+    ```
+    (defn print-pairs
+      [x]
+      (loop [[k v] :pairs x]
+        (printf "[%v]=%v" k v)))
+
+    (print-pairs [:a :b :c]) # -> nil
+    # prints
+    # [0]=:a
+    # [1]=:b
+    # [2]=:c
+    ```
+
 ### Nice!
 
 The following non-exhaustively lists some characteristics that might
