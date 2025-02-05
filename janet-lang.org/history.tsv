@@ -218,11 +218,21 @@ date	name	commits	defunct name	files	notes
 					
 2019-12-13	root-env	5b9eda5		src/boot/boot.janet	
 					
+2020-01-13	module/add-paths	f709d7e		src/boot/boot.janet	
+					
+2020-01-16	assert	65be9ae		src/boot/boot.janet	
+2020-01-16	defer	65be9ae		src/boot/boot.janet	
+					
 2020-01-16	when-with	962cd7e		src/boot/boot.janet	
 2020-01-16	if-with	962cd7e		src/boot/boot.janet	
 					
+2020-01-19	eachk	064475c		src/boot/boot.janet	
+2020-01-19	eachp	064475c		src/boot/boot.janet	
+					
 2020-01-24	mod	28d4103		src/core/corelib.c	
 2020-01-24	%	28d4103		src/core/corelib.c	
+					
+2020-01-25	var-	6f9c987		src/boot/boot.janet	
 					
 2020-06-25	cmp	ac5de1f		src/core/corelib.c	removed janet function compare-primitve and replaced with asm cmp
 					
