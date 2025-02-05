@@ -205,6 +205,19 @@ date	name	commits	defunct name	files	notes
 2019-11-27	make-image-dict	bca0392		src/boot/boot.janet	
 2019-11-27	load-image-dict	bca0392		src/boot/boot.janet	
 					
+2019-12-01	truthy?	ded08b6		src/boot/boot.janet	
+					
+2019-12-02	prinf	e5fbe5c		src/core/io.c	
+2019-12-02	eprinf	e5fbe5c		src/core/io.c	
+					
+2019-12-04	nan?	3284547		src/boot/boot.janet	
+					
+2019-12-05	comptime	49954c7		src/boot/boot.janet	
+					
+2019-12-13	protect	1a6eb52		src/boot/boot.janet	
+					
+2019-12-13	root-env	5b9eda5		src/boot/boot.janet	
+					
 2020-01-16	when-with	962cd7e		src/boot/boot.janet	
 2020-01-16	if-with	962cd7e		src/boot/boot.janet	
 					
