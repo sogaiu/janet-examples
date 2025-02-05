@@ -26,9 +26,10 @@ beneath it that might be worth a glance:
   there are some cases where the filename to include in the PR might
   need a bit of massaging.
 
-* [Example Content](#example-content) - to get some hints about what
-  kinds of examples might be helpful as well as what to do if you
-  discover something that seems amiss or odd.
+* [Example Content](#example-content) - to get some hints about:
+  * What conventions might be good to follow when expressing examples
+  * What kinds of examples might be helpful
+  * What to do if you discover something that seems amiss or odd
 
 ### The Detailed Version
 
