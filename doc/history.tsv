@@ -284,6 +284,19 @@ date	name	commits	defunct name	files	notes
 					
 2020-03-30		279b536			tag v1.8.0
 					
+2020-03-31		5b6b9f1			tag v1.8.1
+					
+2020-04-10	sort-by	02f17bd		src/boot/boot.janet	
+2020-04-10	sorted-by	02f17bd		src/boot/boot.janet	
+					
+2020-04-14	edefer	93fc11e		src/boot/boot.janet	
+					
+2020-04-26	parse	9bc5ac0		src/boot/boot.janet	
+					
+2020-05-10	errorf	535ab83		src/boot/boot.janet	
+					
+2020-05-11		235605b			tag v1.9.0
+					
 2020-06-25	cmp	ac5de1f		src/core/corelib.c	removed janet function compare-primitve and replaced with asm cmp
 					
 2020-08-23	cancel	28439d8		src/core/corelib.c	
