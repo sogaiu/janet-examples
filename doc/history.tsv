@@ -374,6 +374,12 @@ date	name	commits	defunct name	files	notes
 					
 2021-04-26		e181ee5			tag v1.15.5
 					
+2021-04-30	from-pairs	8fc8974		src/boot/boot.janet	
+					
+2021-05-20	as-macro	eeef5b0		src/boot/boot.janet	
+					
+2021-05-31		b990d77			tag v1.16.0
+					
 2023-06-01	has-key?	5de8894		src/boot/boot.janet	added by Techcable as contains-key? in 0fcbda2
 2023-06-01	has-value?	5de8894		src/boot/boot.janet	added by Techcable as contains? in 0fcbda2
 					
