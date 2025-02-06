@@ -406,6 +406,7 @@ Encountered problems, gotchas, etc.
 Thanks to participants for contributions, discussions, initiation, reviews, etc.
 
 * bakpakin
+* brendanhowell
 * cideM
 * erichaney
 * kcjpop
