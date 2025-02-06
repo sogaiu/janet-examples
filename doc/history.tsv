@@ -297,6 +297,8 @@ date	name	commits	defunct name	files	notes
 					
 2020-05-11		235605b			tag v1.9.0
 					
+2020-05-12		4ae3722			tag v1.9.1
+					
 2020-06-25	cmp	ac5de1f		src/core/corelib.c	removed janet function compare-primitve and replaced with asm cmp
 					
 2020-08-23	cancel	28439d8		src/core/corelib.c	
