@@ -332,7 +332,16 @@ date	name	commits	defunct name	files	notes
 					
 2020-08-04		9afcec7			tag v1.11.3
 					
+2020-08-09	xprint	7b42ed6		src/core/io.c	
+2020-08-09	xprin	7b42ed6		src/core/io.c	
+2020-08-09	xprintf	7b42ed6		src/core/io.c	
+2020-08-09	xprinf	7b42ed6		src/core/io.c	
+					
+2020-08-23	curenv	f7c556e		src/boot/boot.janet	
+					
 2020-08-23	cancel	28439d8		src/core/corelib.c	
+					
+2020-09-08		2bf5e34			tag v1.12.1
 					
 2023-06-01	has-key?	5de8894		src/boot/boot.janet	added by Techcable as contains-key? in 0fcbda2
 2023-06-01	has-value?	5de8894		src/boot/boot.janet	added by Techcable as contains? in 0fcbda2
