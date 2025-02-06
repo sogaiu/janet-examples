@@ -310,7 +310,21 @@ date	name	commits	defunct name	files	notes
 					
 2020-06-15		be1ec1b			tag v1.10.0
 					
+2020-06-19		9cfc3d9			tag v1.10.1
+					
+2020-06-22	repeat	803f17a		src/boot/boot.janet	
+					
 2020-06-25	cmp	ac5de1f		src/core/corelib.c	removed janet function compare-primitve and replaced with asm cmp
+					
+2020-06-28	forv	95c6339		src/boot/boot.janet	
+					
+2020-07-04	reverse!	55cf9f5		src/boot/boot.janet	
+					
+2020-07-06	any?	7478ad1		src/boot/boot.janet	
+					
+2020-07-07	forever	f580d2e		src/boot/boot.janet	
+					
+2020-07-19		fa55283			tag v1.11.0
 					
 2020-08-23	cancel	28439d8		src/core/corelib.c	
 					
