@@ -382,9 +382,6 @@ Encountered problems, gotchas, etc.
   for which things.
 * potential fixes
   * none ATM
-* track from which commit something got added and by whom?
-  * need a more efficient method
-  * take, drop - curist
 * functions to check whether the return value is also an xs
   * determined
     * distinct - returns an array, can work on tuples, arrays, structs, tables
