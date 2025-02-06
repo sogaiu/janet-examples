@@ -27,8 +27,8 @@ beneath it that might be worth a glance:
   need a bit of massaging.
 
 * [Example Content](#example-content) - to get some hints about:
-  * What conventions might be good to follow when expressing examples
   * What kinds of examples might be helpful
+  * What conventions might be good to follow when expressing examples
   * What to do if you discover something that seems amiss or odd
 
 ### The Detailed Version
@@ -225,75 +225,15 @@ directory.
 
 ## Example Content
 
-### Conventions
+Note that, at a bare minimum, as stated near the end of the [Adding
+Examples
+section](https://github.com/janet-lang/janet-lang.org#adding-examples)
+of the janet-lang.org repository `README`:
 
-There are a number of emerging conventions for expressing the
-examples.  Articulating examples along these lines may aid in
-comprehension and reduce confusion.  At the moment, it appears that:
+> Make sure that your example has correct janet syntax, as syntax
+> errors will cause the entire site to not build.
 
-* Return values are expressed using `# -> <value>`, e.g.:
-
-    ```
-    (% 10 3) # -> 1
-    ```
-
-* Errors are expressed using `# -> <error message>`, e.g.:
-
-    ```
-    (empty? 0) # -> error: expected iterable type, got 0
-    ```
-
-  Typically a characteristic portion of the actual error message is
-  used, often a subset of the first line of error output (so leaving
-  off additional lines if there is a stacktrace).
-
-  Note that sometimes the actual error message might start with
-  something other than `error:` (such as repl prompt info like
-  `repl:2:1:`), but it might be better to leave those bits out.
-  
-  However, some error messages might continue with a relevant word
-  such as `compile`, in which case keeping such words might be good:
-  
-    ```
-    (module/not-exposed-fn 10) # -> compile error: unknown symbol module/not-exposed-fn
-    ```
-
-* Output is expressed using a description with one or more line
-  comments preceding or following the example:
-
-    ```
-    (defn simple
-      [x]
-      (print (+ x 1)))
-
-    # prints 11
-    (simple 10) # -> nil
-    ```
-
-   or:
-
-    ```
-    (loop [x :range [0 100] :when (even? x)]
-      (print x)) # -> nil
-    # prints even numbers 0, 2, 4, ..., 98
-    ```
-
-   or:
-
-    ```
-    (defn print-pairs
-      [x]
-      (loop [[k v] :pairs x]
-        (printf "[%v]=%v" k v)))
-
-    (print-pairs [:a :b :c]) # -> nil
-    # prints
-    # [0]=:a
-    # [1]=:b
-    # [2]=:c
-    ```
-
-### Nice!
+### Hints for Helpful Examples
 
 The following non-exhaustively lists some characteristics that might
 be useful for examples to have:
@@ -304,7 +244,90 @@ be useful for examples to have:
 * Simple to understand
 * Fixes / tweaks a community example from elsewhere
 
-### Huh?
+### Conventions
+
+There are a number of emerging conventions for expressing the
+examples regarding:
+
+* Return Values
+* Errors
+* Output
+
+Articulating examples along the following lines may aid in
+comprehension and reduce confusion.
+
+#### Return Values
+
+Return values are expressed using `# -> <value>`, e.g.:
+
+```
+(% 10 3) # -> 1
+```
+
+Typically, the `# -> <value>` construct appears after the code it is
+associated with.
+
+#### Errors
+
+Errors are expressed using `# -> <error message>`, e.g.:
+
+```
+(empty? 0) # -> error: expected iterable type, got 0
+```
+
+Typically a characteristic portion of the actual error message is
+used, often a subset of the first line of error output (so leaving off
+additional lines if there is a stacktrace).
+
+Note that sometimes the actual error message might start with
+something other than `error:` (such as repl prompt info like
+`repl:2:1:`), but it might be better to leave those bits out.
+
+However, some error messages might continue with a relevant word
+such as `compile`, in which case keeping such words might be good:
+
+```
+(module/not-exposed-fn 10) # -> compile error: unknown symbol module/not-exposed-fn
+```
+
+#### Output
+
+Output is expressed using a description with one or more line comments
+preceding or following the example:
+
+```
+(defn simple
+  [x]
+  (print (+ x 1)))
+
+  # prints 11
+  (simple 10) # -> nil
+```
+
+or:
+
+```
+(loop [x :range [0 100] :when (even? x)]
+  (print x)) # -> nil
+# prints even numbers 0, 2, 4, ..., 98
+```
+
+or:
+
+```
+(defn print-pairs
+  [x]
+  (loop [[k v] :pairs x]
+    (printf "[%v]=%v" k v)))
+
+(print-pairs [:a :b :c]) # -> nil
+# prints
+# [0]=:a
+# [1]=:b
+# [2]=:c
+```
+
+### Coping with Oddities
 
 Sometimes a call or use you try might feel "off" in some way.  If it
 fits one of the following, please call this out (e.g. by letting us
