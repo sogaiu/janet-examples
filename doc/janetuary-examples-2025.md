@@ -386,16 +386,6 @@ Encountered problems, gotchas, etc.
   * determined
     * distinct - returns an array, can work on tuples, arrays, structs, tables
       but what it is supposed to work on is unspecified
-    * geomean - returns an array, can work on tuples, arrays, structs, tables
-      but what it is supposed to work on is unspecified
-    * last - returns element can work on tuples, arrays, structs, tables
-      but what it is supposed to work on is unspecified
-    * mean - returns an array, can work on tuples, arrays, structs, tables
-      but what it is supposed to work on is unspecified
-    * product - returns an array, can work on tuples, arrays, structs, tables
-      but what it is supposed to work on is unspecified
-    * sum - returns an array, can work on tuples, arrays, structs, tables
-      but what it is supposed to work on is unspecified
   * todo
     * filter
     * drop-until
