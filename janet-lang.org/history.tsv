@@ -129,6 +129,8 @@ date	name	commits	defunct name	files	notes
 					
 2018-12-08	match	b7d44ba,b250679		lib/match.janet	moved to src/core/core.janet in b250679
 					
+2018-12-09		bb918d0			tag 0.1.0
+					
 2018-12-17	band	99e14a9		src/core/corelib.c	renamed from & which was added in a018f9f
 2018-12-17	bor	99e14a9		src/core/corelib.c	renamed from | which was added in a018f9f
 2018-12-17	bxor	99e14a9		src/core/corelib.c	renamed from ^ which was added in a018f9f
@@ -136,17 +138,25 @@ date	name	commits	defunct name	files	notes
 2018-12-17	brshift	99e14a9		src/core/corelib.c	renamed from >> which was added in a018f9f
 2018-12-17	brushift	99e14a9		src/core/corelib.c	renamed from >>> which was added in a018f9f
 					
+2018-12-24		2c94aa1			tag 0.2.0
+					
 2019-01-09	all-bindings	5b1a3b8			renamed from all-symbols which was added in f8bda3a
 					
 2019-01-19	module/cache	b84b0e4		src/core/core.janet	
 2019-01-19	module/loading	b84b0e4		src/core/core.janet	
+					
+2019-01-27		c333cbf			tag 0.3.0
 					
 2019-02-08	partition	fe27df5		src/core/core.janet	
 					
 2019-02-17	make-image	1f91ee3		src/core/core.janet	
 2019-02-17	load-image	1f91ee3		src/core/core.janet	
 					
+2019-03-09		a61b59b			tag v0.4.0
+					
 2019-03-10	break	4a111b3		src/core/specials.c	
+					
+2019-04-15		7527142			tag v0.4.1
 					
 2019-04-17	printf	2d7df6b		src/boot/boot.janet	
 2019-04-17	dyn	2d7df6b		src/core/corelib.c	
@@ -159,13 +169,21 @@ date	name	commits	defunct name	files	notes
 2019-05-05	trace	88b8418		src/core/corelib.c	
 2019-05-05	untrace	88b8418		src/core/corelib.c	
 					
+2019-05-10		c7dc361			tag v0.5.0
+					
 2019-05-10	dofile	3388acd		src/boot/boot.janet	
+					
+2019-05-30		ba09564			tag v0.6.0
 					
 2019-06-19	module/expand-path	9ba8728		src/core/corelib.c	
 					
 2019-06-25	propagate	b8032ec		src/core/corelib.c	
 					
 2019-06-25	with	a7f3d34		src/boot/boot.janet	renamed from with-resource which was added in b8032ec
+					
+2019-07-02		d66f833			tag v1.0.0
+					
+2019-07-09		3928136			tag v1.1.0
 					
 2019-07-20	use	0d3986a		src/boot/boot.janet	
 					
@@ -176,19 +194,27 @@ date	name	commits	defunct name	files	notes
 2019-08-06	take	18da183		src/boot/boot.janet	added by curist
 2019-08-06	drop	18da183		src/boot/boot.janet	added by curist
 					
+2019-08-09		ec62e87			tag v1.2.0
+					
 2019-09-06	get-in	7a13d24		src/boot/boot.janet	
 2019-09-06	update-in	7a13d24		src/boot/boot.janet	
 2019-09-06	freeze	7a13d24		src/boot/boot.janet	
 					
 2019-09-06	put-in	99f1472		src/boot/boot.janet	
 					
+2019-09-06		37a943d			tag v1.3.0
+					
 2019-09-20	mean	8e42731		src/boot/boot.janet	
+					
+2019-09-22		7809f89			tag v1.3.1
 					
 2019-09-25	slice	70ffe3b,cf2d386		src/boot/boot.janet	became janet_core_slice c function in corelib.c in cf2d386
 					
 2019-10-04	varfn	e9f3dc7		src/boot/boot.janet	
 					
 2019-10-11	quit	a18a251		src/boot/boot.janet	
+					
+2019-10-15		7fd0748			tag v1.4.0
 					
 2019-10-19	prin	d47804d		src/core/io.c	
 2019-10-19	eprin	d47804d		src/core/io.c	
@@ -201,6 +227,10 @@ date	name	commits	defunct name	files	notes
 2019-11-01	with-vars	6ceaf9d		src/boot/boot.janet	
 					
 2019-11-09	in	aee1687		src/core/corelib.c	
+					
+2019-11-11		0d2844b			tag v1.5.0
+					
+2019-11-17		5171dfd			tag v1.5.1
 					
 2019-11-27	make-image-dict	bca0392		src/boot/boot.janet	
 2019-11-27	load-image-dict	bca0392		src/boot/boot.janet	
@@ -218,6 +248,8 @@ date	name	commits	defunct name	files	notes
 					
 2019-12-13	root-env	5b9eda5		src/boot/boot.janet	
 					
+2019-12-23		da93a73			tag v1.6.0
+					
 2020-01-13	module/add-paths	f709d7e		src/boot/boot.janet	
 					
 2020-01-16	assert	65be9ae		src/boot/boot.janet	
@@ -233,6 +265,10 @@ date	name	commits	defunct name	files	notes
 2020-01-24	%	28d4103		src/core/corelib.c	
 					
 2020-01-25	var-	6f9c987		src/boot/boot.janet	
+					
+2020-02-03		f7ee8bd			tag v1.7.0
+					
+2020-03-30		279b536			tag v1.8.0
 					
 2020-06-25	cmp	ac5de1f		src/core/corelib.c	removed janet function compare-primitve and replaced with asm cmp
 					
