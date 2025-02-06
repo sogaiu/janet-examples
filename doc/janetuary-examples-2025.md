@@ -228,7 +228,7 @@ directory.
 ### Conventions
 
 There are a number of emerging conventions for expressing the
-examples.  Expressing examples along these lines may aid in
+examples.  Articulating examples along these lines may aid in
 comprehension and reduce confusion.  At the moment, it appears that:
 
 * Return values are expressed using `# -> <value>`, e.g.:
