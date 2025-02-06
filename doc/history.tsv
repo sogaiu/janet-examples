@@ -268,6 +268,20 @@ date	name	commits	defunct name	files	notes
 					
 2020-02-03		f7ee8bd			tag v1.7.0
 					
+2020-02-04	flush	3fdc053		src/core/io.c	
+2020-02-04	eflush	3fdc053		src/core/io.c	
+					
+2020-02-24	signal	6a13703		src/core/corelib.c	
+					
+2020-02-24	prompt	59d288c		src/boot/boot.janet	
+2020-02-24	return	59d288c		src/boot/boot.janet	
+					
+2020-03-11	chr	77343e0		src/boot/boot.janet	
+					
+2020-03-27	reduce2	3eb0927		src/boot/boot.janet	
+2020-03-27	accumulate	3eb0927		src/boot/boot.janet	
+2020-03-27	accumulate2	3eb0927		src/boot/boot.janet	
+					
 2020-03-30		279b536			tag v1.8.0
 					
 2020-06-25	cmp	ac5de1f		src/core/corelib.c	removed janet function compare-primitve and replaced with asm cmp
