@@ -463,3 +463,7 @@ date	name	commits	defunct name	files	notes
 					
 2023-08-06		ecc4d80			tag v1.30.0
 					
+2023-09-01	lengthable?	f969fb6		src/core/corelib.c	
+					
+2023-09-18		4e5889e			tag v1.31.0
+					
