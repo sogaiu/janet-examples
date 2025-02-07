@@ -424,6 +424,10 @@ date	name	commits	defunct name	files	notes
 					
 2022-06-21		8f0a1ff			tag v1.23.0
 					
+2022-06-29	tabseq	9bde578		src/boot/boot.janet	
+					
+2022-08-22		34496ec			tag v1.24.0
+					
 2023-06-01	has-key?	5de8894		src/boot/boot.janet	added by Techcable as contains-key? in 0fcbda2
 2023-06-01	has-value?	5de8894		src/boot/boot.janet	added by Techcable as contains? in 0fcbda2
 					
