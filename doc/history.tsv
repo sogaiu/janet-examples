@@ -394,6 +394,10 @@ date	name	commits	defunct name	files	notes
 					
 2021-10-17		66c4e5a			tag v1.18.1
 					
+2021-10-30	getproto	03f9975		src/core/corelib.c	originally at 4d983e5, master merged to struct-proto
+					
+2021-11-28		a0ddfcb			tag v1.19.0
+					
 2023-06-01	has-key?	5de8894		src/boot/boot.janet	added by Techcable as contains-key? in 0fcbda2
 2023-06-01	has-value?	5de8894		src/boot/boot.janet	added by Techcable as contains? in 0fcbda2
 					
