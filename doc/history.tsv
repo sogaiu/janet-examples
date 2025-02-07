@@ -500,3 +500,11 @@ date	name	commits	defunct name	files	notes
 					
 2024-06-17		fda0a08			tag v1.35.2
 					
+2024-07-13	bundle/add-bin	f62539a		src/boot/boot.janet	
+					
+2024-07-31	geomean	aaeaa3a		src/boot/boot.janet	
+					
+2024-08-05	bundle/whois	accac6c		src/boot/boot.janet	
+					
+2024-09-08		c0d7a49			tag v1.36.0
+					
