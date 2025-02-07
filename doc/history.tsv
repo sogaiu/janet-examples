@@ -392,6 +392,8 @@ date	name	commits	defunct name	files	notes
 					
 2021-10-11		f0da793			tag v1.18.0
 					
+2021-10-17		66c4e5a			tag v1.18.1
+					
 2023-06-01	has-key?	5de8894		src/boot/boot.janet	added by Techcable as contains-key? in 0fcbda2
 2023-06-01	has-value?	5de8894		src/boot/boot.janet	added by Techcable as contains? in 0fcbda2
 					
