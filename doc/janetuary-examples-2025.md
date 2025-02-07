@@ -391,10 +391,8 @@ Encountered problems, gotchas, etc.
 
 ## Potential Future Items
 
-* [trim short-fn examples from docstring?](https://github.com/janet-lang/janet-lang.org/pull/257#issue-2792013487)
 * eventually trim docstrings of other items that have at least one
   example in the corresponding docstring?
-  * `apply`
   * `debug/break`
   * `fiber/new`
 * discuss deprecation of some things
