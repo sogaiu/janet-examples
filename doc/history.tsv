@@ -416,6 +416,14 @@ date	name	commits	defunct name	files	notes
 					
 2022-05-10		5b2a402			tag v1.22.0
 					
+2022-05-29	parse-all	2f64a6b		src/boot/boot.janet	
+					
+2022-06-11	debugger	c364833		src/boot/boot.janet	
+					
+2022-06-14	delay	8072935		src/boot/boot.janet	
+					
+2022-06-21		8f0a1ff			tag v1.23.0
+					
 2023-06-01	has-key?	5de8894		src/boot/boot.janet	added by Techcable as contains-key? in 0fcbda2
 2023-06-01	has-value?	5de8894		src/boot/boot.janet	added by Techcable as contains? in 0fcbda2
 					
