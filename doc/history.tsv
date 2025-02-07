@@ -460,3 +460,6 @@ date	name	commits	defunct name	files	notes
 2023-06-01	has-value?	5de8894		src/boot/boot.janet	added by Techcable as contains? in 0fcbda2
 					
 2023-06-28	div	c83f3ec		src/core/corelib.c	added by primo-ppcg
+					
+2023-08-06		ecc4d80			tag v1.30.0
+					
