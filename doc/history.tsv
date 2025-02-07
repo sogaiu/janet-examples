@@ -475,3 +475,26 @@ date	name	commits	defunct name	files	notes
 					
 2024-04-16		f92f3eb			tag v1.34.0
 					
+2024-05-13	bundle/manifest	9c43779		src/boot/boot.janet	
+2024-05-13	bundle/do-hook	9c43779		src/boot/boot.janet	
+2024-05-13	bundle/uninstall	9c43779		src/boot/boot.janet	
+2024-05-13	bundle/install	9c43779		src/boot/boot.janet	
+2024-05-13	bundle/add-directory	9c43779		src/boot/boot.janet	
+2024-05-13	bundle/add-file	9c43779		src/boot/boot.janet	
+2024-05-13	bundle/list	9c43779		src/boot/boot.janet	
+					
+2024-05-14		1f39a0f	bundle/backup	src/boot/boot.janet	renamed to bundle/pack in cd34b89 and made private in 8fca6b7
+2024-05-14	bundle/reinstall	1f39a0f		src/boot/boot.janet	
+2024-05-14	bundle/update-all	1f39a0f		src/boot/boot.janet	
+					
+2024-05-17	bundle/installed?	f0092ef		src/boot/boot.janet	
+					
+2024-05-17	with-env	721f280		src/boot/boot.janet	
+					
+2024-05-26	bundle/topolist	7387a1d		src/boot/boot.janet	
+2024-05-26	bundle/prune	7387a1d		src/boot/boot.janet	
+					
+2024-05-29	bundle/add	8fca6b7		src/boot/boot.janet	
+					
+2024-06-15		0d9e999			tag v1.35.0
+					
