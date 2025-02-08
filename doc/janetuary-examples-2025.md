@@ -225,13 +225,21 @@ directory.
 
 ## Example Content
 
-Note that, at a bare minimum, as stated near the end of the [Adding
+Note that, at a bare minimum (as stated near the end of the [Adding
 Examples
 section](https://github.com/janet-lang/janet-lang.org#adding-examples)
-of the janet-lang.org repository `README`:
+of the janet-lang.org repository `README`):
 
 > Make sure that your example has correct janet syntax, as syntax
 > errors will cause the entire site to not build.
+
+Apart from this, please find below:
+
+* hints for helpful examples (e.g. what sorts of examples might be
+  good to have)
+* conventions (e.g. expressing return and error values)
+* coping with oddities (e.g. what to do when behavior and docs
+  conflict)
 
 ### Hints for Helpful Examples
 
