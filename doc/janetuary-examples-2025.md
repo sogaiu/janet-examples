@@ -419,6 +419,9 @@ Encountered problems, gotchas, etc.
     * filter
     * drop-until
     * drop-while
+* mull over spork examples additions
+  * try to ascertain what if any problems there are with adding
+    spork examples in the same fashion as the others
 
 ## Credits
 
