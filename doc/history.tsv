@@ -188,10 +188,15 @@ date	name	commits	defunct name	files	notes
 2019-04-17	printf	2d7df6b		src/boot/boot.janet	
 2019-04-17	dyn	2d7df6b		src/core/corelib.c	
 2019-04-17	setdyn	2d7df6b		src/core/corelib.c	
+2019-04-17	figber/getenv	2d7df6b		src/core/fiber.c	
+2019-04-17	figber/setenv	2d7df6b		src/core/fiber.c	
 					
 2019-04-17	with-dyns	513d551		src/boot/boot.janet	
 					
 2019-04-17	all-dynamics	d1eca1c		src/boot/boot.janet	
+					
+2019-05-04	string/has-prefix?	c70d59e		src/core/string.c	added by andrewchambers
+2019-05-04	string/has-suffix?	c70d59e		src/core/string.c	added by andrewchambers
 					
 2019-05-05	trace	88b8418		src/core/corelib.c	
 2019-05-05	untrace	88b8418		src/core/corelib.c	
