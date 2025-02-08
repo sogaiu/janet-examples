@@ -215,6 +215,8 @@ date	name	commits	defunct name	files	notes
 					
 2019-05-30		ba09564			tag v0.6.0
 					
+2019-06-09	parser/clone	43520ac		src/core/parse.c	
+					
 2019-06-19	module/expand-path	9ba8728		src/core/corelib.c	
 					
 2019-06-25	propagate	b8032ec		src/core/corelib.c	
