@@ -168,7 +168,20 @@ date	name	commits	defunct name	files	notes
 					
 2019-03-09		a61b59b			tag v0.4.0
 					
+2019-03-09	array/remove	687a3c9		src/core/array.c	
+					
 2019-03-10	break	4a111b3		src/core/specials.c	
+					
+2019-03-29	os/touch	53c7f2e		src/core/os.c	
+2019-03-29	os/mkdir	53c7f2e		src/core/os.c	
+2019-03-29	os/link	53c7f2e		src/core/os.c	
+					
+2019-03-31	os/stat	c509060		src/core/os.c	
+					
+2019-03-31	os/dir	5d7dc0a		src/core/os.c	
+					
+2019-03-31	os/rmdir	1709bce		src/core/os.c	
+2019-03-31	os/rm	1709bce		src/core/os.c	
 					
 2019-04-15		7527142			tag v0.4.1
 					
