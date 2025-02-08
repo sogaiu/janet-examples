@@ -225,6 +225,7 @@ date	name	commits	defunct name	files	notes
 					
 2019-07-02		d66f833			tag v1.0.0
 					
+2019-07-09	table/clone	3928136		src/core/table.c	
 2019-07-09		3928136			tag v1.1.0
 					
 2019-07-20	use	0d3986a		src/boot/boot.janet	
