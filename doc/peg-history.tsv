@@ -1,0 +1,43 @@
+date	name	commits	defunct name	files	notes
+					
+2019-01-12	*	40845b5		src/core/peg.c	
+2019-01-12	+	40845b5		src/core/peg.c	
+2019-01-12		40845b5	-	src/core/peg.c	eventually got the name if-not and this original name was removed in 90313af
+2019-01-12	>	40845b5		src/core/peg.c	
+2019-01-12	at-least	40845b5		src/core/peg.c	
+2019-01-12	at-most	40845b5		src/core/peg.c	
+2019-01-12	between	40845b5		src/core/peg.c	
+2019-01-12	not	40845b5		src/core/peg.c	
+2019-01-12	range	40845b5		src/core/peg.c	
+2019-01-12	set	40845b5		src/core/peg.c	
+					
+2019-01-12	<-	1efca2e		src/core/peg.c	name removed once in ff0d3a0 but added back in 43eceec
+2019-01-12		1efca2e	<-c	src/core/peg.c	?
+2019-01-12		1efca2e	<-p	src/core/peg.c	?
+2019-01-12		1efca2e	<-g	src/core/peg.c	?
+					
+2019-01-13	/	d7626f8		src/core/peg.c	
+2019-01-13		d7626f8	<-s	src/core/peg.c	?
+2019-01-13		d7626f8	>>	src/core/peg.c	?
+					
+2019-01-13		83f4a11	<-arg	src/core/peg.c	?
+					
+2019-01-14	!	ff0d3a0		src/core/peg.c	
+2019-01-14	any	ff0d3a0		src/core/peg.c	
+2019-01-14	argument	ff0d3a0		src/core/peg.c	
+2019-01-14	backref	ff0d3a0		src/core/peg.c	
+2019-01-14	capture	ff0d3a0		src/core/peg.c	
+2019-01-14	choice	ff0d3a0		src/core/peg.c	
+2019-01-14	constant	ff0d3a0		src/core/peg.c	
+2019-01-14	group	ff0d3a0		src/core/peg.c	
+2019-01-14	if-not	ff0d3a0		src/core/peg.c	
+2019-01-14	look	ff0d3a0		src/core/peg.c	
+2019-01-14	not	ff0d3a0		src/core/peg.c	
+2019-01-14	position	ff0d3a0		src/core/peg.c	
+2019-01-14	replace	ff0d3a0		src/core/peg.c	
+2019-01-14	sequence	ff0d3a0		src/core/peg.c	
+2019-01-14	some	ff0d3a0		src/core/peg.c	
+					
+2019-01-15	cmt	1927051		src/core/peg.c	
+					
+2019-01-15	if-not	90313af		src/core/peg.c	
