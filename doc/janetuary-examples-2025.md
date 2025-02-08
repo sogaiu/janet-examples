@@ -268,7 +268,7 @@ comprehension and reduce confusion.
 
 Return values are expressed using `# -> <value>`, e.g.:
 
-```
+```janet
 (% 10 3) # -> 1
 ```
 
@@ -279,7 +279,7 @@ associated with.
 
 Errors are expressed using `# -> <error message>`, e.g.:
 
-```
+```janet
 (empty? 0) # -> error: expected iterable type, got 0
 ```
 
@@ -294,7 +294,7 @@ something other than `error:` (such as repl prompt info like
 However, some error messages might continue with a relevant word
 such as `compile`, in which case keeping such words might be good:
 
-```
+```janet
 (module/not-exposed-fn 10) # -> compile error: unknown symbol module/not-exposed-fn
 ```
 
@@ -303,18 +303,18 @@ such as `compile`, in which case keeping such words might be good:
 Output is expressed using a description with one or more line comments
 preceding or following the example:
 
-```
+```janet
 (defn simple
   [x]
   (print (+ x 1)))
 
-  # prints 11
-  (simple 10) # -> nil
+# prints 11
+(simple 10) # -> nil
 ```
 
 or:
 
-```
+```janet
 (loop [x :range [0 100] :when (even? x)]
   (print x)) # -> nil
 # prints even numbers 0, 2, 4, ..., 98
@@ -322,7 +322,7 @@ or:
 
 or:
 
-```
+```janet
 (defn print-pairs
   [x]
   (loop [[k v] :pairs x]
