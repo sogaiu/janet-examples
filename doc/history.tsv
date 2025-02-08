@@ -205,6 +205,14 @@ date	name	commits	defunct name	files	notes
 					
 2019-05-10	dofile	3388acd		src/boot/boot.janet	
 					
+2019-05-11	string/trim	232ea22		src/core/string.c	
+2019-05-11	string/triml	232ea22		src/core/string.c	
+2019-05-11	string/trimr	232ea22		src/core/string.c	
+					
+2019-05-17	module/loaders	7054e87		src/boot/boot.janet	
+					
+2019-05-30	os/rename	fd2d706		src/core/os.c	
+					
 2019-05-30		ba09564			tag v0.6.0
 					
 2019-06-19	module/expand-path	9ba8728		src/core/corelib.c	
