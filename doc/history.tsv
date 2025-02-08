@@ -272,6 +272,9 @@ date	name	commits	defunct name	files	notes
 2019-11-01	with-vars	6ceaf9d		src/boot/boot.janet	
 					
 2019-11-09	in	aee1687		src/core/corelib.c	
+2019-11-09	math/rng	aee1687		src/core/math.c	
+2019-11-09	math/uniform	aee1687		src/core/math.c	
+2019-11-09	math/int	aee1687		src/core/math.c	
 					
 2019-11-11		0d2844b			tag v1.5.0
 					
