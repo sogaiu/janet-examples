@@ -152,7 +152,16 @@ date	name	commits	defunct name	files	notes
 					
 2019-01-27		c333cbf			tag 0.3.0
 					
+2019-01-31	bad-parse	c76f4e8		src/core/core.janet	
+2019-01-31	debug/stacktrace	c76f4e8		src/core/debug.c	
+					
+2019-02-01	parser/insert	4bcf656		src/core/parse.c	
+					
 2019-02-08	partition	fe27df5		src/core/core.janet	
+					
+2019-02-16	string/format	a6f022a		src/core/string.c	
+					
+2019-02-17	buffer/format	029394d 		src/core/buffer.c	
 					
 2019-02-17	make-image	1f91ee3		src/core/core.janet	
 2019-02-17	load-image	1f91ee3		src/core/core.janet	
