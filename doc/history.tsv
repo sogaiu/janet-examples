@@ -280,13 +280,21 @@ date	name	commits	defunct name	files	notes
 					
 2019-11-17		5171dfd			tag v1.5.1
 					
+2019-11-26	debug/step	6988fd3		src/core/debug.c	
+					
 2019-11-27	make-image-dict	bca0392		src/boot/boot.janet	
 2019-11-27	load-image-dict	bca0392		src/boot/boot.janet	
+					
+2019-11-28	os/environ	07db4c5		src/core/os.c	added by andrewchambers
 					
 2019-12-01	truthy?	ded08b6		src/boot/boot.janet	
 					
 2019-12-02	prinf	e5fbe5c		src/core/io.c	
 2019-12-02	eprinf	e5fbe5c		src/core/io.c	
+					
+2019-12-04	os/cryptorand	0ac5b24		src/core/os.c	added by andrewchambers
+					
+2019-12-04	math/rng-buffer	7032843		src/core/math.c	
 					
 2019-12-04	nan?	3284547		src/boot/boot.janet	
 					
@@ -295,6 +303,12 @@ date	name	commits	defunct name	files	notes
 2019-12-13	protect	1a6eb52		src/boot/boot.janet	
 					
 2019-12-13	root-env	5b9eda5		src/boot/boot.janet	
+					
+2019-12-15	buffer/fill	7634254		src/core/buffer.c	
+					
+2019-12-19	array/new-filled	b9f0f14		src/core/array.c	
+					
+2019-12-20	array/fill	e28262f		src/core/array.c	
 					
 2019-12-23		da93a73			tag v1.6.0
 					
