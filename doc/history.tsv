@@ -268,6 +268,8 @@ date	name	commits	defunct name	files	notes
 					
 2020-02-03		f7ee8bd			tag v1.7.0
 					
+2020-02-04	net/server	eda6145		src/core/net.c	moved to src/boot/boot.janet in 6f1d5d3
+					
 2020-02-04	flush	3fdc053		src/core/io.c	
 2020-02-04	eflush	3fdc053		src/core/io.c	
 					
@@ -344,6 +346,9 @@ date	name	commits	defunct name	files	notes
 2020-09-08		2bf5e34			tag v1.12.1
 					
 2020-09-21		b91fe8b			tag v1.12.2
+					
+2020-11-10	net/listen	6f1d5d3		src/core/net.c	
+2020-11-10	net/accept-loop	6f1d5d3		src/core/net.c	
 					
 2020-11-17	compif	760e4e3		src/boot/boot.janet	
 2020-11-17	compwhen	760e4e3		src/boot/boot.janet	
