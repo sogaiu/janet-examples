@@ -312,6 +312,8 @@ date	name	commits	defunct name	files	notes
 					
 2019-12-23		da93a73			tag v1.6.0
 					
+2019-12-30	file/temp	c2f8441		src/core/io.c	
+					
 2020-01-13	module/add-paths	f709d7e		src/boot/boot.janet	
 					
 2020-01-16	assert	65be9ae		src/boot/boot.janet	
