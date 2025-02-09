@@ -338,11 +338,17 @@ date	name	commits	defunct name	files	notes
 2020-02-04	eflush	3fdc053		src/core/io.c	
 					
 2020-02-24	signal	6a13703		src/core/corelib.c	
+2020-02-24	fiber/can-resume?	6a13703		src/core/fiber.c	
 					
 2020-02-24	prompt	59d288c		src/boot/boot.janet	
 2020-02-24	return	59d288c		src/boot/boot.janet	
 					
 2020-03-11	chr	77343e0		src/boot/boot.janet	
+					
+2020-03-15	os/chmod	bac2b74		src/core/os.c	
+					
+0202-03-25	os/symlink	3d1de23		src/core/os.c	
+0202-03-25	os/realpath	3d1de23		src/core/os.c	
 					
 2020-03-27	reduce2	3eb0927		src/boot/boot.janet	
 2020-03-27	accumulate	3eb0927		src/boot/boot.janet	
