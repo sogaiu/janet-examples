@@ -453,6 +453,14 @@ date	name	commits	defunct name	files	notes
 					
 2020-08-23	cancel	28439d8		src/core/corelib.c	
 					
+2020-08-24	ev/cancel	86e00e8		src/core/ev.c	
+					
+2020-09-02	os/proc-wait	e7fca00		src/core/os.c	
+					
+2020-09-02	os/proc-kill	7079cc4		src/core/os.c	
+					
+2020-09-04	os/spawn	0145b13		src/core/os.c	
+					
 2020-09-08		2bf5e34			tag v1.12.1
 					
 2020-09-21		b91fe8b			tag v1.12.2
