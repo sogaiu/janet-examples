@@ -468,11 +468,19 @@ date	name	commits	defunct name	files	notes
 2020-11-10	net/listen	6f1d5d3		src/core/net.c	
 2020-11-10	net/accept-loop	6f1d5d3		src/core/net.c	
 					
+2020-11-16	os/open	cdcb774		src/core/os.c	
+2020-11-16	os/pipe	cdcb774		src/core/os.c	
+					
 2020-11-17	compif	760e4e3		src/boot/boot.janet	
 2020-11-17	compwhen	760e4e3		src/boot/boot.janet	
 2020-11-17	upscope	760e4e3		src/core/specials.c	
 					
 2020-11-27	merge-module	bfd2845		src/boot/boot.janet	
+					
+2020-12-05	buffer/push	c4a4916		src/core/buffer.c	
+					
+2020-12-06	ev/with-deadline	9d23192		src/boot/boot.janet	
+2020-12-06	ev/deadline	9d23192		src/core/ev.c	
 					
 2020-12-14		392d5d5			tag v1.13.1
 					
