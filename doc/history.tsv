@@ -401,6 +401,9 @@ date	name	commits	defunct name	files	notes
 2020-06-05	compare>	81d301a		src/boot/boot.janet	
 2020-06-05	compare>=	81d301a		src/boot/boot.janet	
 					
+2020-06-15	array/trim	79f5751		src/core/array.c	
+2020-06-15	buffer/trim	79f5751		src/core/buffer.c	
+					
 2020-06-15		be1ec1b			tag v1.10.0
 					
 2020-06-19		9cfc3d9			tag v1.10.1
