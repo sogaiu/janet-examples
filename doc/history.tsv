@@ -484,9 +484,15 @@ date	name	commits	defunct name	files	notes
 					
 2020-12-14		392d5d5			tag v1.13.1
 					
+2020-01-04	fiber/last-value	c357af0		src/core/fiber.c	
+					
 2021-01-07	flycheck	545df28		src/boot/boot.janet	
 					
+2021-01-07	ev/gather	4e7ad3c		src/boot/boot.janet	
+					
 2021-01-12	doc-of	dfbdd17		src/boot/boot.janet	
+					
+2021-01-16	ev/give-supervisor	a1cc5ca		src/core/ev.c	
 					
 2021-01-19		49dcc81			tag v1.14.1
 					
