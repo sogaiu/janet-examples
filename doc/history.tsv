@@ -496,6 +496,9 @@ date	name	commits	defunct name	files	notes
 					
 2021-01-19		49dcc81			tag v1.14.1
 					
+2021-01-23	ev/do-thread	317ab6d		src/boot/boot.janet	
+2021-01-23	ev/thread	317ab6d		src/core/ev.c	
+					
 2021-01-24		5cac8bc			tag v1.14.2
 					
 2021-02-09		2795e8a			tag v1.15.0
