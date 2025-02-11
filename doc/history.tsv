@@ -358,12 +358,33 @@ date	name	commits	defunct name	files	notes
 					
 2020-03-31		5b6b9f1			tag v1.8.1
 					
+2020-04-02	os/umask	3c2b1ba		src/core/os.c	added by andrewchambers
+					
+2020-04-04		464fb73	os/perm-str	src/core/os.c	renamed to os/perm-string in a0d61e4
+2020-04-04	os/perm-int	464fb73		src/core/os.c	
+					
+2020-04-04	os/perm-string	a0d61e4		src/core/os.c	
+					
+2020-04-05	math/log1p	f089b20		src/core/math.c	
+2020-04-05	math/gamma	f089b20		src/core/math.c	meaning was changed in e6babd8
+2020-04-05	math/erfc	f089b20		src/core/math.c	
+2020-04-05	math/erf	f089b20		src/core/math.c	
+					
 2020-04-10	sort-by	02f17bd		src/boot/boot.janet	
 2020-04-10	sorted-by	02f17bd		src/boot/boot.janet	
 					
 2020-04-14	edefer	93fc11e		src/boot/boot.janet	
 					
 2020-04-26	parse	9bc5ac0		src/boot/boot.janet	
+					
+2020-04-27	net/server	d2ebf4b		src/core/net.c	
+2020-04-27	net/read	d2ebf4b		src/core/net.c	
+2020-04-27	net/chunk	d2ebf4b		src/core/net.c	
+2020-04-27	net/write	d2ebf4b		src/core/net.c	
+2020-04-27	net/close	d2ebf4b		src/core/net.c	
+2020-04-27	net/connect	d2ebf4b		src/core/net.c	
+					
+2020-05-01	fiber/root	761ea65		src/core/net.c	
 					
 2020-05-10	errorf	535ab83		src/boot/boot.janet	
 					
