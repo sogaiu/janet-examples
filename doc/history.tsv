@@ -611,7 +611,13 @@ date	name	commits	defunct name	files	notes
 					
 2023-01-08		c28df14			tag v1.26.0
 					
+2023-01-29	os/compiler	05e7f97		src/core/os.c	
+					
 2023-02-07	sandbox	b032d94		src/core/corelib.c	
+					
+2023-02-13	ffi/pointer-buffer	1cadff8		src/core/ffi.c	
+					
+2023-02-13	buffer/push-at	c55d935		src/core/buffer.c	
 					
 2023-03-06		01aab66			tag v1.27.0
 					
