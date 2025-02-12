@@ -543,6 +543,13 @@ date	name	commits	defunct name	files	notes
 2021-10-17		66c4e5a			tag v1.18.1
 					
 2021-10-30	getproto	03f9975		src/core/corelib.c	originally at 4d983e5, master merged to struct-proto
+2021-10-30	struct/with-proto	03f9975		src/core/struct.c	originally at 4d983e5, master merged to struct-proto
+2021-10-30	struct/getproto	03f9975		src/core/struct.c	originally at 4d983e5, master merged to struct-proto
+2021-10-30	struct/proto-flatten	03f9975		src/core/struct.c	originally at 4d983e5, master merged to struct-proto
+2021-10-30	struct/to-table	03f9975		src/core/struct.c	originally at 4d983e5, master merged to struct-proto
+2021-10-30	table/proto-flatten	03f9975		src/core/table.c	originally at 4d983e5, master merged to struct-proto
+					
+2021-11-24	math/log-gamma	e6babd8		src/core/math.c	old math/gamma implementation gets new name math/log-gamma
 					
 2021-11-28		a0ddfcb			tag v1.19.0
 					
