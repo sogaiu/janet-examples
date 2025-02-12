@@ -621,8 +621,14 @@ date	name	commits	defunct name	files	notes
 					
 2023-03-06		01aab66			tag v1.27.0
 					
+2023-04-02	ev/all-tasks	3858b2e		src/core/ev.c	
+					
 2023-04-08	keep-syntax	b6175e4		src/boot/boot.janet	added by ml-2
 2023-04-08	keep-syntax!	b6175e4		src/boot/boot.janet	added by ml-2
+					
+2023-04-24	catseq	ccd874f		src/boot/boot.janet	added by ianthehenry
+					
+2023-05-11	os/strftime	5cd729c		src/core/os.c	added by zevv
 					
 2023-05-14		358f5a0			tag v1.28.0
 					
