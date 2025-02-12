@@ -675,6 +675,12 @@ date	name	commits	defunct name	files	notes
 					
 2024-01-10		f91e599			tag v1.33.0
 					
+2024-01-16	buffer/push-uint16	df5f79f		src/core/buffer.c	added by pnelson
+2024-01-16	buffer/push-uint32	df5f79f		src/core/buffer.c	added by pnelson
+2024-01-16	buffer/push-uint64	df5f79f		src/core/buffer.c	added by pnelson
+2024-01-16	buffer/push-float32	df5f79f		src/core/buffer.c	added by pnelson
+2024-01-16	buffer/push-float64	df5f79f		src/core/buffer.c	added by pnelson
+					
 2024-04-16		f92f3eb			tag v1.34.0
 					
 2024-05-13	bundle/manifest	9c43779		src/boot/boot.janet	
