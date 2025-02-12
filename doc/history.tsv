@@ -683,6 +683,8 @@ date	name	commits	defunct name	files	notes
 					
 2024-04-16		f92f3eb			tag v1.34.0
 					
+2024-05-10	ffi/defbind-alias	ee7362e		src/core/ffi.c	added by wishdev
+					
 2024-05-13	bundle/manifest	9c43779		src/boot/boot.janet	
 2024-05-13	bundle/do-hook	9c43779		src/boot/boot.janet	
 2024-05-13	bundle/uninstall	9c43779		src/boot/boot.janet	
@@ -694,10 +696,15 @@ date	name	commits	defunct name	files	notes
 2024-05-14		1f39a0f	bundle/backup	src/boot/boot.janet	renamed to bundle/pack in cd34b89 and made private in 8fca6b7
 2024-05-14	bundle/reinstall	1f39a0f		src/boot/boot.janet	
 2024-05-14	bundle/update-all	1f39a0f		src/boot/boot.janet	
+2024-05-14	buffer/format-at	1f39a0f		src/core/buffer.c	
 					
 2024-05-17	bundle/installed?	f0092ef		src/boot/boot.janet	
 					
 2024-05-17	with-env	721f280		src/boot/boot.janet	
+					
+2024-05-19	ev/with-lock	ace60e1		src/boot/boot.janet	
+2024-05-19	ev/with-rlock	ace60e1		src/boot/boot.janet	
+2024-05-19	ev/with-wlock	ace60e1		src/boot/boot.janet	
 					
 2024-05-26	bundle/topolist	7387a1d		src/boot/boot.janet	
 2024-05-26	bundle/prune	7387a1d		src/boot/boot.janet	
