@@ -512,6 +512,8 @@ date	name	commits	defunct name	files	notes
 					
 2021-03-17		fcb88e5			tag v1.15.4
 					
+2021-03-27	net/shutdown	7c7ff80		src/core/net.c	
+					
 2021-04-26		e181ee5			tag v1.15.5
 					
 2021-04-30	from-pairs	8fc8974		src/boot/boot.janet	
