@@ -526,6 +526,12 @@ date	name	commits	defunct name	files	notes
 					
 2021-06-10		87f8fe1			tag v1.16.1
 					
+2021-07-22	table/clear	2e58f5f		src/core/table.c	
+					
+2021-07-31	ev/chan-close	e76b8da		src/core/ev.c	
+					
+2021-08-16	ev/thread-chan	037215f		src/core/ev.c	
+					
 2021-08-22		257c8b6			tag v1.17.0
 					
 2021-08-30		e1c4fc2			tag v1.17.1
