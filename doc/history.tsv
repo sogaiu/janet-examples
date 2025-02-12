@@ -604,6 +604,11 @@ date	name	commits	defunct name	files	notes
 					
 2022-10-30		894cd0e			tag v1.25.1
 					
+2022-12-04	ffi/jitfn	7a3d055		src/core/ffi.c	
+					
+2022-12-16	ffi/malloc	d5ee6cf		src/core/ffi.c	
+2022-12-16	ffi/free	d5ee6cf		src/core/ffi.c	
+					
 2023-01-08		c28df14			tag v1.26.0
 					
 2023-02-07	sandbox	b032d94		src/core/corelib.c	
