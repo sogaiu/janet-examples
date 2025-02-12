@@ -721,6 +721,18 @@ date	name	commits	defunct name	files	notes
 					
 2024-08-05	bundle/whois	accac6c		src/boot/boot.janet	
 					
+2024-08-11	array/join	ab70524		src/core/array.c	
+2024-08-11	tuple/join	ab70524		src/core/tuple.c	
+					
+2024-08-12		a59b576	filewatch/make	src/core/filewatch.c	renamed to filewatch/new in 7e6aad2
+2024-08-12	filewatch/add	a59b576		src/core/filewatch.c	
+2024-08-12	filewatch/remove	a59b576		src/core/filewatch.c	
+2024-08-12	filewatch/listen	a59b576		src/core/filewatch.c	
+					
+2024-08-18	filewatch/unlisten	33f55dc		src/core/filewatch.c	
+					
+2024-08-18	filewatch/new	7e6aad2		src/core/filewatch.c	renamed from filewatch/make
+					
 2024-09-08		c0d7a49			tag v1.36.0
 					
 2024-10-30	assertf	abad9d7		src/boot/boot.janet	added by sogaiu, but essentially the same existed in c31d8b5
