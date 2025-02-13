@@ -68,6 +68,16 @@ date	name	commits	defunct name	files	notes
 2018-03-29	sort	f4ef0ae		src/compiler/boot.dst	
 2018-03-29	sorted	f4ef0ae		src/compiler/boot.dst	
 					
+2018-03-29		39d6bd5	os-execute	src/core/os.c	renamed to os.execute in f47323c
+2018-03-29		39d6bd5	os-exit	src/core/os.c	renamed to os.exit in f47323c
+2018-03-29		39d6bd5	os-getenv	src/core/os.c	renamed to os.getenv in f47323c
+2018-03-29		39d6bd5	os-setenv	src/core/os.c	renamed to os.setenv in f47323c
+					
+2018-05-09		f47323c	os.execute	src/core/os.c	renamed to os/execute in 4e4dd31
+2018-05-09		f47323c	os.exit	src/core/os.c	renamed to os/exit in 4e4dd31
+2018-05-09		f47323c	os.getenv	src/core/os.c	renamed to os/getenv in 4e4dd31
+2018-05-09		f47323c	os.setenv	src/core/os.c	renamed to os/setenv in 4e4dd31
+					
 2018-05-19	string?	68895e2		src/compiler/boot.dst	
 2018-05-19	symbol?	68895e2		src/compiler/boot.dst	
 2018-05-19	buffer?	68895e2		src/compiler/boot.dst	
@@ -126,6 +136,10 @@ date	name	commits	defunct name	files	notes
 2018-12-01	module/paths	4e4dd31		src/core/core.janet	renamed from module.paths which was added in 68895e2
 2018-12-01	module/find	4e4dd31		src/core/core.janet	renamed from module.paths which was added in 68895e2
 2018-12-01	bnot	4e4dd31		src/core/corelib.c	renamed from ~ which was added in b860b0a
+2018-12-01	os/execute	4e4dd31		src/core/os.c	renamed from os.execute which was originally os-execute which was added in 39d6bd5
+2018-12-01	os/exit	4e4dd31		src/core/os.c	renamed from os.exit which was originally os-exit which was added in 39d6bd5
+2018-12-01	os/getenv	4e4dd31		src/core/os.c	renamed from os.getenv which was originally os-getenv which was added in 39d6bd5
+2018-12-01	os/setenv	4e4dd31		src/core/os.c	renamed from os.setenv which was originally os-setenv which was added in 39d6bd5
 					
 2018-12-08	match	b7d44ba,b250679		lib/match.janet	moved to src/core/core.janet in b250679
 					
