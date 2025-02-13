@@ -142,6 +142,8 @@ date	name	commits	defunct name	files	notes
 					
 2019-01-09	all-bindings	5b1a3b8			renamed from all-symbols which was added in f8bda3a
 					
+2019-01-12	peg/match	40845b5		src/core/peg.c	
+					
 2019-01-19	module/cache	b84b0e4		src/core/core.janet	
 2019-01-19	module/loading	b84b0e4		src/core/core.janet	
 					
