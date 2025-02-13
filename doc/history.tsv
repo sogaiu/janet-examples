@@ -634,7 +634,7 @@ date	name	commits	defunct name	files	notes
 					
 2023-05-14		358f5a0			tag v1.28.0
 					
-2023-05-15	net/setsockopt	88d0c2c		src/core/net.c	
+2023-05-15	net/setsockopt	88d0c2c		src/core/net.c	added by zevv
 					
 2023-05-20	thaw	c3fd71d		src/boot/boot.janet	added by tionis
 					
