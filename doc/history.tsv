@@ -52,6 +52,7 @@ date	name	commits	defunct name	files	notes
 2018-03-17	/=	8da838e		src/compiler/boot.dst	
 2018-03-17	%=	8da838e		src/compiler/boot.dst	
 					
+2018-03-29		c7de277	when-not	examples/utils.dst	renamed to unless in e60c8a9
 2018-03-21	if-let	c7de277		examples/utils.dst	
 2018-03-21	when-let	c7de277		examples/utils.dst	
 					
@@ -94,6 +95,8 @@ date	name	commits	defunct name	files	notes
 2018-06-16	<=	6df88f2		core/math.c	
 2018-06-16	=	6df88f2		core/math.c	
 2018-06-16	not=	6df88f2		core/math.c	
+					
+2018-07-02	unless	e60c8a9		src/compiler/boot.dst	renamed from when-not
 					
 2018-07-04	print	a018f9f		src/core/corelib.c	
 2018-07-04	describe	a018f9f		src/core/corelib.c	
