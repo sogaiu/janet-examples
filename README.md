@@ -4,7 +4,7 @@ Information about examples for Janet code.
 
 ## Sources
 
-### Function Invocations
+### Invocations
 
 * janet-lang.org
   * [Core API Page](https://janet-lang.org/api/index.html)
