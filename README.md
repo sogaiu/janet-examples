@@ -33,10 +33,10 @@ Information about examples for Janet code.
 
 ### Repositories and Packages
 
+* [git-some-janets](https://github.com/sogaiu/git-some-janets/blob/master/git-some-janets.janet)
 * [pkgs](https://github.com/janet-lang/pkgs/)
 * [Powered by
-  Janet](https://goto-engineering.github.io/powered-by-janet/)
-* [git-some-janets](https://github.com/sogaiu/git-some-janets/blob/master/git-some-janets.janet)
+  Janet](https://goto-engineering.github.io/powered-by-janet/) - not so active these days?
 
 ## Notes
 
