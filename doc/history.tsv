@@ -157,6 +157,8 @@ date	name	commits	defunct name	files	notes
 					
 2018-12-24		2c94aa1			tag 0.2.0
 					
+2018-12-26	try	1728324		src/core/core.janet
+
 2019-01-09	all-bindings	5b1a3b8			renamed from all-symbols which was added in f8bda3a
 					
 2019-01-12	peg/match	40845b5		src/core/peg.c	
