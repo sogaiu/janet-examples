@@ -88,6 +88,9 @@ date	name	commits	defunct name	files	notes
 2018-05-22		f8bda3a	all-symbols	src/compiler/boot.dst	renamed to all-bindings in 5b1a3b8
 					
 2018-05-24	loop	b09bf72		src/compiler/boot.dst	
+
+2018-05-27	sum	3b30b98		src/compiler.boot.dst
+2018-05-27	product	3b30b98		src/compiler.boot.dst
 					
 2018-06-16	>	6df88f2		core/math.c	
 2018-06-16	<	6df88f2		core/math.c	
