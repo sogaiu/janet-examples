@@ -777,3 +777,4 @@ date	name	commits	defunct name	files	notes
 
 2025-08-25		4e02f27			tag v1.39.0
 
+2025-09-19	os/posix-chroot	357f1f9		src/core/os.c
