@@ -778,3 +778,5 @@ date	name	commits	defunct name	files	notes
 2025-08-25		4e02f27			tag v1.39.0
 
 2025-09-19	os/posix-chroot	357f1f9		src/core/os.c
+
+2025-09-29	bundle/add-manpage	f393531		src/boot/boot.janet
